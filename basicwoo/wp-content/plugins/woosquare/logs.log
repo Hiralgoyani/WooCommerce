@@ -1,0 +1,463 @@
+[info] [2019-12-17 05:16:03] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2019-12-17 05:16:03] Currency code mismatch between Square [] and WooCommerce [INR]
+[info] [2019-12-17 05:16:33] Getting currency code for square token: , url: https://connect.squareup.com/v1/me and location: me
+[info] [2019-12-17 05:16:34] Currency code mismatch between Square [] and WooCommerce [INR]
+[info] [2019-12-17 05:16:43] -------------------------------------------------------------------------------
+[info] [2019-12-17 05:16:43] Authorize square account with Token: EAAAEM6St6nTdvyikPUICAACWzpxxz3noZDwW5WJYzgukwgO8Johe2jKTMSEmjle
+[info] [2019-12-17 05:16:45] The response of authorize curl request{"headers":{},"body":"{\"account_capabilities\":[\"EMPLOYEE_MANAGEMENT\",\"TIMECARD_MANAGEMENT\"],\"id\":\"VFD3JZNP7H7JX\",\"name\":\"test\",\"email\":\"goyanihiral20107@gmail.com\",\"country_code\":\"IN\",\"language_code\":\"en\",\"business_name\":\"test\",\"business_address\":{\"address_line_1\":\"1638 Steve Irwin Way\",\"locality\":\"Beerwah QLD\",\"postal_code\":\"4519\",\"country_code\":\"IN\"},\"business_type\":\"OTHER\",\"account_type\":\"BUSINESS\",\"currency_code\":\"INR\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:16:47] The response of get locations request {"headers":{},"body":"[{\"account_capabilities\":[],\"id\":\"8345JKBBVT1QE\",\"name\":\"My Business\",\"email\":\"goyanihiral20107@gmail.com\",\"country_code\":\"IN\",\"language_code\":\"en\",\"business_type\":\"OTHER\",\"account_type\":\"LOCATION\",\"location_details\":{\"nickname\":\"My Business\"},\"currency_code\":\"INR\"}]","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:03] Getting currency code for square token: EAAAEM6St6nTdvyikPUICAACWzpxxz3noZDwW5WJYzgukwgO8Johe2jKTMSEmjle, url: https://connect.squareup.com/v1/8345JKBBVT1QE and location: 8345JKBBVT1QE
+[info] [2019-12-17 05:17:05] The response of current location curl request{"headers":{},"body":"{\"account_capabilities\":[],\"id\":\"8345JKBBVT1QE\",\"name\":\"My Business\",\"email\":\"goyanihiral20107@gmail.com\",\"country_code\":\"IN\",\"language_code\":\"en\",\"business_type\":\"OTHER\",\"account_type\":\"LOCATION\",\"location_details\":{\"nickname\":\"My Business\"},\"currency_code\":\"INR\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:12] Manual sync: [woo->square] start gathering data
+[info] [2019-12-17 05:17:14] The Simplified curl object[]
+[info] [2019-12-17 05:17:15] Manual sync: [woo->square] end gathering data
+[info] [2019-12-17 05:17:39] ************************************************************
+[info] [2019-12-17 05:17:39] Start Manual Sync from Woo-commerce to Square: log:1
+[info] [2019-12-17 05:17:40] Manual sync: processing category:Uncategorized[15] with action = add 
+[info] [2019-12-17 05:17:40] Adding category: {"name":"Uncategorized"}
+[info] [2019-12-17 05:17:41] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"8f071757-5eb1-42be-8377-1f33df6a787d\",\"name\":\"Uncategorized\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:42] Manual sync: processing category:Clothing[16] with action = add 
+[info] [2019-12-17 05:17:42] Adding category: {"name":"Clothing"}
+[info] [2019-12-17 05:17:43] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"c32de661-48d1-4a0e-a497-727e4ab18da1\",\"name\":\"Clothing\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:44] Manual sync: processing category:Tshirts[17] with action = add 
+[info] [2019-12-17 05:17:44] Adding category: {"name":"Tshirts"}
+[info] [2019-12-17 05:17:45] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"3a1091f5-5c3f-40c4-9bbc-8fddc87fe7be\",\"name\":\"Tshirts\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:46] Manual sync: processing category:Hoodies[18] with action = add 
+[info] [2019-12-17 05:17:46] Adding category: {"name":"Hoodies"}
+[info] [2019-12-17 05:17:48] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"a0f5e699-28a9-4304-8613-77c2a69f0e2c\",\"name\":\"Hoodies\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:49] Manual sync: processing category:Accessories[19] with action = add 
+[info] [2019-12-17 05:17:49] Adding category: {"name":"Accessories"}
+[info] [2019-12-17 05:17:50] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"67b34d09-5031-4bfc-8396-2d0d256cd2b9\",\"name\":\"Accessories\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:50] Manual sync: processing category:Music[20] with action = add 
+[info] [2019-12-17 05:17:50] Adding category: {"name":"Music"}
+[info] [2019-12-17 05:17:51] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"8bdf22c8-0144-404e-bb92-9bd141c86137\",\"name\":\"Music\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:52] Manual sync: processing category:Decor[21] with action = add 
+[info] [2019-12-17 05:17:52] Adding category: {"name":"Decor"}
+[info] [2019-12-17 05:17:54] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"2184cfef-b4e8-48a5-b989-6f0a9222d51f\",\"name\":\"Decor\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:55] Manual sync: processing category:simple[22] with action = add 
+[info] [2019-12-17 05:17:55] Adding category: {"name":"simple"}
+[info] [2019-12-17 05:17:56] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"name\":\"simple\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:17:57] Manual sync: processing category:variation-single[24] with action = add 
+[info] [2019-12-17 05:17:57] Adding category: {"name":"variation-single"}
+[info] [2019-12-17 05:17:58] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"ffb98c6e-55e3-483e-9a90-41844586c420\",\"name\":\"variation-single\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:00] Manual sync: processing category:variation multiple[26] with action = add 
+[info] [2019-12-17 05:18:00] Adding category: {"name":"variation multiple"}
+[info] [2019-12-17 05:18:01] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"08810979-c965-40a1-af37-c2f801739fb0\",\"name\":\"variation multiple\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:02] Manual sync: processing category:grouped[28] with action = add 
+[info] [2019-12-17 05:18:02] Adding category: {"name":"grouped"}
+[info] [2019-12-17 05:18:04] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"4c41d6b8-e8e4-449d-8f73-ab0208895bf2\",\"name\":\"grouped\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:06] Manual sync: processing category:sunglass[29] with action = add 
+[info] [2019-12-17 05:18:06] Adding category: {"name":"sunglass"}
+[info] [2019-12-17 05:18:07] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"95b4f84b-ebca-4cdd-b484-ce0dd55b911b\",\"name\":\"sunglass\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:08] Manual sync: processing category:External/Affiliate[34] with action = add 
+[info] [2019-12-17 05:18:08] Adding category: {"name":"External\/Affiliate"}
+[info] [2019-12-17 05:18:12] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"21619fc3-9aea-4844-a862-170f9540650e\",\"name\":\"External\/Affiliate\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:13] Manual sync: processing category:watch[36] with action = add 
+[info] [2019-12-17 05:18:13] Adding category: {"name":"watch"}
+[info] [2019-12-17 05:18:14] The response of adding new category curl request {"headers":{},"body":"{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:15] Manual sync: processing product:Nike Women's Running Shoes[28] with action = add 
+[info] [2019-12-17 05:18:15] Product id: 28 is Variable Product
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:15] SKU Not found.
+[info] [2019-12-17 05:18:15] Adding/Updating  product: Nike Women's Running Shoes [ id=28 ]
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '7' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '7' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '6' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '6' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '5' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '4' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '4' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation '3' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'Blue' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'Black' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'Pink' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'Gray' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'White' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'White' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'Pink' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:16] Variable product 28 ['Nike Women's Running Shoes'] variation 'Black' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:18] The response of adding new product curl request {"headers":{},"body":"{\"type\":\"bad_request\",\"message\":\"variations must be an array\"}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:19] Manual sync: processing product:AARA Women's Midi Dress[50] with action = add 
+[info] [2019-12-17 05:18:19] Product id: 50 is Variable Product
+[info] [2019-12-17 05:18:19] checking exists of Woocommerce sku 'SAKKHJ566' on Square items
+[info] [2019-12-17 05:18:19] SKU Not found.
+[info] [2019-12-17 05:18:19] Adding/Updating  product: AARA Women's Midi Dress [ id=50 ]
+[info] [2019-12-17 05:18:22] The response of adding new product curl request {"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":false,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"79cdbdfb-508a-417a-8892-fe4896e50640\",\"name\":\"size[X]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":450000},\"sku\":\"SAKKHJ566\",\"ordinal\":1,\"item_id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PUBLIC\",\"id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\",\"description\":\"\\r\\n \\tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\\r\\n \\tFit Type: Regular Fit\\r\\n \\tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\\r\\n \\tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\\r\\n \\tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\\r\\n \\t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\\r\\n\",\"name\":\"AARA Women's Midi Dress\",\"category_id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"category\":{\"id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"name\":\"simple\",\"v2_id\":\"R44PUNO6CPC6UUQASAPNUXCV\"},\"type\":\"NORMAL\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:22] calling Manage_stock_from_square for50
+[info] [2019-12-17 05:18:22] Updating product inventory for variable product (1 variations)
+[info] [2019-12-17 05:18:28] Manual sync: processing product:Women's Maxi Dress[51] with action = add 
+[info] [2019-12-17 05:18:28] Product id: 51 is Simple Product
+[info] [2019-12-17 05:18:28] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:28] Adding/Updating  product: Women's Maxi Dress [ id=51 ]
+[info] [2019-12-17 05:18:30] The response of adding new product curl request {"headers":{},"body":"{\"type\":\"bad_request\",\"message\":\"variations must be an array\"}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:31] Manual sync: processing product:Sunglasses for Women[64] with action = add 
+[info] [2019-12-17 05:18:31] Product id: 64 is Simple Product
+[info] [2019-12-17 05:18:31] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:31] Adding/Updating  product: Sunglasses for Women [ id=64 ]
+[info] [2019-12-17 05:18:33] The response of adding new product curl request {"headers":{},"body":"{\"type\":\"bad_request\",\"message\":\"variations must be an array\"}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:34] Manual sync: processing product:Zyaden Brown Sunglasses[66] with action = add 
+[info] [2019-12-17 05:18:34] Product id: 66 is Simple Product
+[info] [2019-12-17 05:18:34] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:34] Adding/Updating  product: Zyaden Brown Sunglasses [ id=66 ]
+[info] [2019-12-17 05:18:40] Manual sync: processing product:MTV Gradient Sunglasses[73] with action = add 
+[info] [2019-12-17 05:18:40] Product id: 73 is Simple Product
+[info] [2019-12-17 05:18:40] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:40] Adding/Updating  product: MTV Gradient Sunglasses [ id=73 ]
+[info] [2019-12-17 05:18:41] Simple product 73 ['MTV Gradient Sunglasses'] skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:42] Manual sync: processing product:CLARK N PALMER SUNGLASSES[74] with action = add 
+[info] [2019-12-17 05:18:42] Product id: 74 is Simple Product
+[info] [2019-12-17 05:18:42] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:18:42] Adding/Updating  product: CLARK N PALMER SUNGLASSES [ id=74 ]
+[info] [2019-12-17 05:18:43] Simple product 74 ['CLARK N PALMER SUNGLASSES'] skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:18:43] Manual sync: processing product:Fossil  Women's Watch[76] with action = add 
+[info] [2019-12-17 05:18:43] Product id: 76 is Simple Product
+[info] [2019-12-17 05:18:43] checking exists of Woocommerce sku 'FRFRE8900' on Square items
+[info] [2019-12-17 05:18:43] SKU Not found.
+[info] [2019-12-17 05:18:43] Adding/Updating  product: Fossil  Women's Watch [ id=76 ]
+[info] [2019-12-17 05:18:46] The response of adding new product curl request {"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PUBLIC\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"type\":\"NORMAL\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:46] calling Manage_stock_from_square for76
+[info] [2019-12-17 05:18:46] Updating product inventory for simple product (1 variations)
+[info] [2019-12-17 05:18:47] The response of updating inventory curl request{"headers":{},"body":"{\"variation_id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"quantity_on_hand\":100}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:18:51] Terminating manual sync process by ajax
+[info] [2019-12-17 05:18:51] End Manual Sync from Woo-commerce to Square: log:1
+[info] [2019-12-17 05:18:51] ************************************************************
+[info] [2019-12-17 05:21:10] Manual sync: [woo->square] start gathering data
+[info] [2019-12-17 05:21:12] The Simplified curl object{"SAKKHJ566":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","FRFRE8900":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e"}
+[info] [2019-12-17 05:21:12] Manual sync: [woo->square] end gathering data
+[info] [2019-12-17 05:21:21] ************************************************************
+[info] [2019-12-17 05:21:21] Start Manual Sync from Woo-commerce to Square: log:22
+[info] [2019-12-17 05:21:21] Manual sync: processing category:Uncategorized[15] with action = update 
+[info] [2019-12-17 05:21:21] Editing category: {"name":"Uncategorized"}
+[info] [2019-12-17 05:21:23] The response of edit category curl request {"headers":{},"body":"{\"id\":\"8f071757-5eb1-42be-8377-1f33df6a787d\",\"name\":\"Uncategorized\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:24] Manual sync: processing category:Clothing[16] with action = update 
+[info] [2019-12-17 05:21:24] Editing category: {"name":"Clothing"}
+[info] [2019-12-17 05:21:25] The response of edit category curl request {"headers":{},"body":"{\"id\":\"c32de661-48d1-4a0e-a497-727e4ab18da1\",\"name\":\"Clothing\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:26] Manual sync: processing category:Tshirts[17] with action = update 
+[info] [2019-12-17 05:21:26] Editing category: {"name":"Tshirts"}
+[info] [2019-12-17 05:21:27] The response of edit category curl request {"headers":{},"body":"{\"id\":\"3a1091f5-5c3f-40c4-9bbc-8fddc87fe7be\",\"name\":\"Tshirts\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:27] Manual sync: processing category:Hoodies[18] with action = update 
+[info] [2019-12-17 05:21:27] Editing category: {"name":"Hoodies"}
+[info] [2019-12-17 05:21:29] The response of edit category curl request {"headers":{},"body":"{\"id\":\"a0f5e699-28a9-4304-8613-77c2a69f0e2c\",\"name\":\"Hoodies\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:29] Manual sync: processing category:Accessories[19] with action = update 
+[info] [2019-12-17 05:21:29] Editing category: {"name":"Accessories"}
+[info] [2019-12-17 05:21:31] The response of edit category curl request {"headers":{},"body":"{\"id\":\"67b34d09-5031-4bfc-8396-2d0d256cd2b9\",\"name\":\"Accessories\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:32] Manual sync: processing category:Music[20] with action = update 
+[info] [2019-12-17 05:21:32] Editing category: {"name":"Music"}
+[info] [2019-12-17 05:21:34] The response of edit category curl request {"headers":{},"body":"{\"id\":\"8bdf22c8-0144-404e-bb92-9bd141c86137\",\"name\":\"Music\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:35] Manual sync: processing category:Decor[21] with action = update 
+[info] [2019-12-17 05:21:35] Editing category: {"name":"Decor"}
+[info] [2019-12-17 05:21:36] The response of edit category curl request {"headers":{},"body":"{\"id\":\"2184cfef-b4e8-48a5-b989-6f0a9222d51f\",\"name\":\"Decor\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:37] Manual sync: processing category:simple[22] with action = update 
+[info] [2019-12-17 05:21:37] Editing category: {"name":"simple"}
+[info] [2019-12-17 05:21:38] The response of edit category curl request {"headers":{},"body":"{\"id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"name\":\"simple\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:39] Manual sync: processing category:variation-single[24] with action = update 
+[info] [2019-12-17 05:21:39] Editing category: {"name":"variation-single"}
+[info] [2019-12-17 05:21:40] The response of edit category curl request {"headers":{},"body":"{\"id\":\"ffb98c6e-55e3-483e-9a90-41844586c420\",\"name\":\"variation-single\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:41] Manual sync: processing category:variation multiple[26] with action = update 
+[info] [2019-12-17 05:21:41] Editing category: {"name":"variation multiple"}
+[info] [2019-12-17 05:21:42] The response of edit category curl request {"headers":{},"body":"{\"id\":\"08810979-c965-40a1-af37-c2f801739fb0\",\"name\":\"variation multiple\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:43] Manual sync: processing category:grouped[28] with action = update 
+[info] [2019-12-17 05:21:43] Editing category: {"name":"grouped"}
+[info] [2019-12-17 05:21:44] The response of edit category curl request {"headers":{},"body":"{\"id\":\"4c41d6b8-e8e4-449d-8f73-ab0208895bf2\",\"name\":\"grouped\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:45] Manual sync: processing category:sunglass[29] with action = update 
+[info] [2019-12-17 05:21:45] Editing category: {"name":"sunglass"}
+[info] [2019-12-17 05:21:46] The response of edit category curl request {"headers":{},"body":"{\"id\":\"95b4f84b-ebca-4cdd-b484-ce0dd55b911b\",\"name\":\"sunglass\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[error] [2019-12-17 05:21:47] Manual Sync Request: There is already sync running
+[info] [2019-12-17 05:21:47] Manual sync: processing category:External/Affiliate[34] with action = update 
+[info] [2019-12-17 05:21:47] Editing category: {"name":"External\/Affiliate"}
+[info] [2019-12-17 05:21:48] The response of edit category curl request {"headers":{},"body":"{\"id\":\"21619fc3-9aea-4844-a862-170f9540650e\",\"name\":\"External\/Affiliate\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:49] Manual sync: processing category:watch[36] with action = update 
+[info] [2019-12-17 05:21:49] Editing category: {"name":"watch"}
+[info] [2019-12-17 05:21:50] Synchronization terminated due to admin request
+[info] [2019-12-17 05:21:50] The response of edit category curl request {"headers":{},"body":"{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:21:53] Manual sync: [woo->square] start gathering data
+[info] [2019-12-17 05:21:55] The Simplified curl object{"SAKKHJ566":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","FRFRE8900":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e"}
+[info] [2019-12-17 05:21:55] Manual sync: [woo->square] end gathering data
+[info] [2019-12-17 05:22:40] ************************************************************
+[info] [2019-12-17 05:22:40] Start Manual Sync from Woo-commerce to Square: log:37
+[info] [2019-12-17 05:22:41] Manual sync: processing product:Nike Women's Running Shoes[28] with action = add 
+[info] [2019-12-17 05:22:41] Product id: 28 is Variable Product
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:41] SKU Not found.
+[info] [2019-12-17 05:22:41] Adding/Updating  product: Nike Women's Running Shoes [ id=28 ]
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '7' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '7' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '6' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '6' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '5' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '4' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '4' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation '3' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'Blue' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'Black' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'Pink' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'Gray' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'White' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'White' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'Pink' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:42] Variable product 28 ['Nike Women's Running Shoes'] variation 'Black' skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:43] The response of adding new product curl request {"headers":{},"body":"{\"type\":\"bad_request\",\"message\":\"variations must be an array\"}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:22:43] Manual sync: processing product:Women's Maxi Dress[51] with action = add 
+[info] [2019-12-17 05:22:43] Product id: 51 is Simple Product
+[info] [2019-12-17 05:22:43] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:43] Adding/Updating  product: Women's Maxi Dress [ id=51 ]
+[info] [2019-12-17 05:22:45] The response of adding new product curl request {"headers":{},"body":"{\"type\":\"bad_request\",\"message\":\"variations must be an array\"}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:22:46] Manual sync: processing product:Sunglasses for Women[64] with action = add 
+[info] [2019-12-17 05:22:46] Product id: 64 is Simple Product
+[info] [2019-12-17 05:22:46] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:46] Adding/Updating  product: Sunglasses for Women [ id=64 ]
+[info] [2019-12-17 05:22:48] The response of adding new product curl request {"headers":{},"body":"{\"type\":\"bad_request\",\"message\":\"variations must be an array\"}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:22:49] Manual sync: processing product:Zyaden Brown Sunglasses[66] with action = add 
+[info] [2019-12-17 05:22:49] Product id: 66 is Simple Product
+[info] [2019-12-17 05:22:49] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:49] Adding/Updating  product: Zyaden Brown Sunglasses [ id=66 ]
+[info] [2019-12-17 05:22:52] Simple product 66 ['Zyaden Brown Sunglasses'] skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:53] Manual sync: processing product:MTV Gradient Sunglasses[73] with action = add 
+[info] [2019-12-17 05:22:53] Product id: 73 is Simple Product
+[info] [2019-12-17 05:22:53] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:53] Adding/Updating  product: MTV Gradient Sunglasses [ id=73 ]
+[info] [2019-12-17 05:22:54] Simple product 73 ['MTV Gradient Sunglasses'] skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:55] Manual sync: processing product:CLARK N PALMER SUNGLASSES[74] with action = add 
+[info] [2019-12-17 05:22:55] Product id: 74 is Simple Product
+[info] [2019-12-17 05:22:55] checking exists of Woocommerce sku '' on Square items
+[info] [2019-12-17 05:22:55] Adding/Updating  product: CLARK N PALMER SUNGLASSES [ id=74 ]
+[info] [2019-12-17 05:22:56] Simple product 74 ['CLARK N PALMER SUNGLASSES'] skipped from synch ( woo->square ): no SKU found
+[info] [2019-12-17 05:22:57] Manual sync: processing product:AARA Women's Midi Dress[50] with action = update 
+[info] [2019-12-17 05:22:57] Product id: 50 is Variable Product
+[info] [2019-12-17 05:22:57] checking exists of Woocommerce sku 'SAKKHJ566' on Square items
+[info] [2019-12-17 05:22:57] SKU found, and the square product id: 07ee0cc9-3f3a-475e-9a48-a52891bf815b
+[info] [2019-12-17 05:22:57] Adding/Updating  product: AARA Women's Midi Dress [ id=50 ]
+[info] [2019-12-17 05:22:58] GET  product with square_id = 07ee0cc9-3f3a-475e-9a48-a52891bf815b
+[info] [2019-12-17 05:22:59] The response of current location curl request{"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":false,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"79cdbdfb-508a-417a-8892-fe4896e50640\",\"name\":\"size[X]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":450000},\"sku\":\"SAKKHJ566\",\"ordinal\":1,\"item_id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\",\"v2_id\":\"N6TGQX7WMI2CSRMTDEMSPSGD\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\",\"description\":\"\\r\\n \\tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\\r\\n \\tFit Type: Regular Fit\\r\\n \\tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\\r\\n \\tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\\r\\n \\tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\\r\\n \\t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\\r\\n\",\"name\":\"AARA Women's Midi Dress\",\"category_id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"category\":{\"id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"name\":\"simple\",\"v2_id\":\"R44PUNO6CPC6UUQASAPNUXCV\"},\"type\":\"NORMAL\",\"v2_id\":\"MRJ3QT2CHS22XYIWW63FLPHR\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:00] The response of updating inventory curl request{"headers":{},"body":"{\"inventory_alert_type\":\"NONE\",\"track_inventory\":false,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"79cdbdfb-508a-417a-8892-fe4896e50640\",\"name\":\"size[X]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":450000},\"sku\":\"SAKKHJ566\",\"ordinal\":1,\"item_id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\",\"v2_id\":\"N6TGQX7WMI2CSRMTDEMSPSGD\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:01] The response of adding new product curl request {"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":false,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"79cdbdfb-508a-417a-8892-fe4896e50640\",\"name\":\"size[X]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":450000},\"sku\":\"SAKKHJ566\",\"ordinal\":1,\"item_id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\",\"v2_id\":\"N6TGQX7WMI2CSRMTDEMSPSGD\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"07ee0cc9-3f3a-475e-9a48-a52891bf815b\",\"description\":\"\\r\\n \\tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\\r\\n \\tFit Type: Regular Fit\\r\\n \\tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\\r\\n \\tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\\r\\n \\tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\\r\\n \\t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\\r\\n\",\"name\":\"AARA Women's Midi Dress\",\"category_id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"category\":{\"id\":\"5874c477-79b4-4ea4-9112-7b6afb758393\",\"name\":\"simple\",\"v2_id\":\"R44PUNO6CPC6UUQASAPNUXCV\"},\"type\":\"NORMAL\",\"v2_id\":\"MRJ3QT2CHS22XYIWW63FLPHR\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:01] calling Manage_stock_from_square for50
+[info] [2019-12-17 05:23:03] Updating product inventory for variable product (1 variations)
+[info] [2019-12-17 05:23:07] Manual sync: processing product:Fossil  Women's Watch[76] with action = update 
+[info] [2019-12-17 05:23:07] Product id: 76 is Simple Product
+[info] [2019-12-17 05:23:07] checking exists of Woocommerce sku 'FRFRE8900' on Square items
+[info] [2019-12-17 05:23:07] SKU found. and the square product id: f2a7ac36-d181-43f3-b9a0-bd1897810c4e
+[info] [2019-12-17 05:23:07] Adding/Updating  product: Fossil  Women's Watch [ id=76 ]
+[info] [2019-12-17 05:23:08] GET  product with square_id = f2a7ac36-d181-43f3-b9a0-bd1897810c4e
+[info] [2019-12-17 05:23:09] The response of current location curl request{"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"c6ddf91d-de21-46be-b52d-0d302d2b07e4\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:10] The response of updating inventory curl request{"headers":{},"body":"{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:11] The response of adding new product curl request {"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"c6ddf91d-de21-46be-b52d-0d302d2b07e4\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:11] calling Manage_stock_from_square for76
+[info] [2019-12-17 05:23:12] Updating product inventory for simple product (1 variations)
+[info] [2019-12-17 05:23:13] The response of updating inventory curl request{"headers":{},"body":"{\"variation_id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"quantity_on_hand\":100}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-17 05:23:17] Terminating manual sync process by ajax
+[info] [2019-12-17 05:23:17] End Manual Sync from Woo-commerce to Square: log:37
+[info] [2019-12-17 05:23:17] ************************************************************
+[info] [2019-12-17 05:23:31] Synchronization terminated due to admin request
+[info] [2019-12-17 05:23:34] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 05:23:37] Searching for new products in all items response
+[info] [2019-12-17 05:23:37] Product 'Tea' is simple
+[notice] [2019-12-17 05:23:37] Simple product ['Tea'] skipped from synch ( square->woo ): no SKU found
+[info] [2019-12-17 05:23:37] Product 'AARA Women's Midi Dress' is simple
+[info] [2019-12-17 05:23:37] Product SKU: SAKKHJ566
+[info] [2019-12-17 05:23:37] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 05:23:37] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 05:23:37] Product SKU: FRFRE8900
+[info] [2019-12-17 05:23:37] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 05:23:38] The Simplified inventory curl object{"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f":100}
+[info] [2019-12-17 05:23:38] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 05:23:43] ************************************************************
+[info] [2019-12-17 05:23:43] Start Manual Sync from Square to Woo-commerce: log:46
+[info] [2019-12-17 05:23:47] Manual sync: processing update all products:
+[info] [2019-12-17 05:23:47] Manual sync: the skipped products ids (no skus) :["HO5AARYXWUIBXTPP7ZFKTKSG"]
+[info] [2019-12-17 05:23:47] Adding Product 'AARA Women's Midi Dress' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"79cdbdfb-508a-417a-8892-fe4896e50640","name":"size[X]","price_money":{"currency_code":"INR","amount":450000},"sku":"SAKKHJ566","ordinal":1,"item_id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","v2_id":"N6TGQX7WMI2CSRMTDEMSPSGD"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","description":"\r\n \tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\r\n \tFit Type: Regular Fit\r\n \tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\r\n \tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\r\n \tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\r\n \t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\r\n","name":"AARA Women's Midi Dress","category_id":"5874c477-79b4-4ea4-9112-7b6afb758393","category":{"id":"5874c477-79b4-4ea4-9112-7b6afb758393","name":"simple","v2_id":"R44PUNO6CPC6UUQASAPNUXCV"},"master_image":{"id":"0078ac87-9dbc-4b71-9885-60fb1c503b25","url":"https:\/\/images-production-f.squarecdn.com\/DpiGNk51kx37MhVcbQVicrx41nY=\/https:\/\/square-production.s3.amazonaws.com\/files\/9fab0e13b2deca8a1713f47927783a973061c54c\/original.jpeg"},"type":"NORMAL","v2_id":"MRJ3QT2CHS22XYIWW63FLPHR"}
+[info] [2019-12-17 05:23:47] Product 'AARA Women's Midi Dress' is simple
+[info] [2019-12-17 05:23:47] Product SKU: SAKKHJ566
+[info] [2019-12-17 05:23:47] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 05:23:47] Product SKU already exists
+[info] [2019-12-17 05:23:47] Inserting product to database with ID : 146
+[info] [2019-12-17 05:23:48] Product inserted to databse with ID: 146
+[info] [2019-12-17 05:23:48] Simple Product Attribute inserted: 146
+[info] [2019-12-17 05:23:48] updating product variation with quantity
+[info] [2019-12-17 05:23:48] uploading product feature image
+[info] [2019-12-17 05:23:54] Deleting product id: 50
+[info] [2019-12-17 05:23:56] Adding Product 'Fossil  Women's Watch' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":true,"pricing_type":"FIXED_PRICING","id":"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f","name":"color[gold]","price_money":{"currency_code":"INR","amount":1500000},"sku":"FRFRE8900","ordinal":1,"item_id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","v2_id":"3RAS7O2GLLKFDONEIVZFX3EA"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","description":"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\r\nBand Color: Gold, Band Material: Stainless Steel\r\nWatch Movement Type: Quartz, Watch Display Type: Digital\r\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\r\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\r\ntouch screen;\r\n2 years warranty","name":"Fossil  Women's Watch","category_id":"b462966a-7b68-4ea1-8f99-d508d7e01463","category":{"id":"b462966a-7b68-4ea1-8f99-d508d7e01463","name":"watch","v2_id":"4KFBR5G4M4BEKKE35A74DYAQ"},"master_image":{"id":"291d9ef3-f83b-4421-aced-93ec0697a8fa","url":"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg"},"type":"NORMAL","v2_id":"7QKVOD5SOG6WBF2DBK4YTSZZ"}
+[info] [2019-12-17 05:23:56] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 05:23:56] Product SKU: FRFRE8900
+[info] [2019-12-17 05:23:56] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 05:23:56] Product SKU already exists
+[info] [2019-12-17 05:23:56] Inserting product to database with ID : 76
+[info] [2019-12-17 05:23:57] Product inserted to databse with ID: 76
+[info] [2019-12-17 05:23:57] Simple Product Attribute inserted: 76
+[info] [2019-12-17 05:23:57] updating product variation with quantity
+[info] [2019-12-17 05:23:58] Terminating manual sync process by ajax
+[info] [2019-12-17 05:23:58] End Manual Sync from Square to Woo-commerce: log:46
+[info] [2019-12-17 05:23:58] ************************************************************
+[info] [2019-12-17 05:26:53] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 05:26:56] Searching for new products in all items response
+[info] [2019-12-17 05:26:56] Product 'Tea' is simple
+[notice] [2019-12-17 05:26:56] Simple product ['Tea'] skipped from synch ( square->woo ): no SKU found
+[info] [2019-12-17 05:26:56] Product 'AARA Women's Midi Dress for woman' is simple
+[info] [2019-12-17 05:26:56] Product SKU: SAKKHJ566
+[info] [2019-12-17 05:26:56] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 05:26:56] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 05:26:56] Product SKU: FRFRE8900
+[info] [2019-12-17 05:26:56] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 05:26:57] The Simplified inventory curl object{"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f":100}
+[info] [2019-12-17 05:26:57] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 05:27:01] ************************************************************
+[info] [2019-12-17 05:27:01] Start Manual Sync from Square to Woo-commerce: log:49
+[info] [2019-12-17 05:27:02] Manual sync: processing update all products:
+[info] [2019-12-17 05:27:02] Manual sync: the skipped products ids (no skus) :["HO5AARYXWUIBXTPP7ZFKTKSG"]
+[info] [2019-12-17 05:27:02] Adding Product 'AARA Women's Midi Dress for woman' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"79cdbdfb-508a-417a-8892-fe4896e50640","name":"size[X]","price_money":{"currency_code":"INR","amount":450000},"sku":"SAKKHJ566","ordinal":1,"item_id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","v2_id":"N6TGQX7WMI2CSRMTDEMSPSGD"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","description":"\r\n \tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\r\n \tFit Type: Regular Fit\r\n \tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\r\n \tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\r\n \tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\r\n \t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\r\n","name":"AARA Women's Midi Dress for woman","category_id":"5874c477-79b4-4ea4-9112-7b6afb758393","category":{"id":"5874c477-79b4-4ea4-9112-7b6afb758393","name":"simple","v2_id":"R44PUNO6CPC6UUQASAPNUXCV"},"master_image":{"id":"0078ac87-9dbc-4b71-9885-60fb1c503b25","url":"https:\/\/images-production-f.squarecdn.com\/DpiGNk51kx37MhVcbQVicrx41nY=\/https:\/\/square-production.s3.amazonaws.com\/files\/9fab0e13b2deca8a1713f47927783a973061c54c\/original.jpeg"},"type":"NORMAL","v2_id":"MRJ3QT2CHS22XYIWW63FLPHR"}
+[info] [2019-12-17 05:27:02] Product 'AARA Women's Midi Dress for woman' is simple
+[info] [2019-12-17 05:27:02] Product SKU: SAKKHJ566
+[info] [2019-12-17 05:27:02] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 05:27:02] Product SKU already exists
+[info] [2019-12-17 05:27:02] Inserting product to database with ID : 146
+[info] [2019-12-17 05:27:03] Product inserted to databse with ID: 146
+[info] [2019-12-17 05:27:03] Simple Product Attribute inserted: 146
+[info] [2019-12-17 05:27:03] updating product variation with quantity
+[info] [2019-12-17 05:27:03] Adding Product 'Fossil  Women's Watch' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":true,"pricing_type":"FIXED_PRICING","id":"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f","name":"color[gold]","price_money":{"currency_code":"INR","amount":1500000},"sku":"FRFRE8900","ordinal":1,"item_id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","v2_id":"3RAS7O2GLLKFDONEIVZFX3EA"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","description":"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\r\nBand Color: Gold, Band Material: Stainless Steel\r\nWatch Movement Type: Quartz, Watch Display Type: Digital\r\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\r\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\r\ntouch screen;\r\n2 years warranty","name":"Fossil  Women's Watch","category_id":"b462966a-7b68-4ea1-8f99-d508d7e01463","category":{"id":"b462966a-7b68-4ea1-8f99-d508d7e01463","name":"watch","v2_id":"4KFBR5G4M4BEKKE35A74DYAQ"},"master_image":{"id":"291d9ef3-f83b-4421-aced-93ec0697a8fa","url":"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg"},"type":"NORMAL","v2_id":"7QKVOD5SOG6WBF2DBK4YTSZZ"}
+[info] [2019-12-17 05:27:03] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 05:27:03] Product SKU: FRFRE8900
+[info] [2019-12-17 05:27:03] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 05:27:03] Product SKU already exists
+[info] [2019-12-17 05:27:03] Inserting product to database with ID : 76
+[info] [2019-12-17 05:27:04] Product inserted to databse with ID: 76
+[info] [2019-12-17 05:27:04] Simple Product Attribute inserted: 76
+[info] [2019-12-17 05:27:04] updating product variation with quantity
+[info] [2019-12-17 05:27:06] Terminating manual sync process by ajax
+[info] [2019-12-17 05:27:06] End Manual Sync from Square to Woo-commerce: log:49
+[info] [2019-12-17 05:27:06] ************************************************************
+[info] [2019-12-17 05:27:36] Synchronization terminated due to admin request
+[info] [2019-12-17 05:27:39] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 05:27:41] Searching for new products in all items response
+[info] [2019-12-17 05:27:41] Product 'Tea' is simple
+[info] [2019-12-17 05:27:41] Product SKU: GHEWCVX8976
+[info] [2019-12-17 05:27:41] Product with SKU [GHEWCVX8976] does not exist
+[info] [2019-12-17 05:27:41] Product SKU not exists
+[info] [2019-12-17 05:27:41] Product 'AARA Women's Midi Dress for woman' is simple
+[info] [2019-12-17 05:27:41] Product SKU: SAKKHJ566
+[info] [2019-12-17 05:27:41] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 05:27:41] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 05:27:41] Product SKU: FRFRE8900
+[info] [2019-12-17 05:27:41] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 05:27:42] The Simplified inventory curl object{"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f":100}
+[info] [2019-12-17 05:27:42] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 05:27:44] ************************************************************
+[info] [2019-12-17 05:27:44] Start Manual Sync from Square to Woo-commerce: log:52
+[info] [2019-12-17 05:27:45] Manual sync: processing product:Tea[HO5AARYXWUIBXTPP7ZFKTKSG] with action = ADD
+[info] [2019-12-17 05:27:45] Inserting product to database
+[info] [2019-12-17 05:27:45] Product inserted to databse with ID: 167
+[info] [2019-12-17 05:27:45] Simple Product Attribute inserted: 167
+[info] [2019-12-17 05:27:45] updating product variation with quantity
+[info] [2019-12-17 05:27:47] Manual sync: processing update all products:
+[info] [2019-12-17 05:27:47] Manual sync: the skipped products ids (no skus) :[]
+[info] [2019-12-17 05:27:47] Adding Product 'AARA Women's Midi Dress for woman' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"79cdbdfb-508a-417a-8892-fe4896e50640","name":"size[X]","price_money":{"currency_code":"INR","amount":450000},"sku":"SAKKHJ566","ordinal":1,"item_id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","v2_id":"N6TGQX7WMI2CSRMTDEMSPSGD"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","description":"\r\n \tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\r\n \tFit Type: Regular Fit\r\n \tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\r\n \tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\r\n \tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\r\n \t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\r\n","name":"AARA Women's Midi Dress for woman","category_id":"5874c477-79b4-4ea4-9112-7b6afb758393","category":{"id":"5874c477-79b4-4ea4-9112-7b6afb758393","name":"simple","v2_id":"R44PUNO6CPC6UUQASAPNUXCV"},"master_image":{"id":"0078ac87-9dbc-4b71-9885-60fb1c503b25","url":"https:\/\/images-production-f.squarecdn.com\/DpiGNk51kx37MhVcbQVicrx41nY=\/https:\/\/square-production.s3.amazonaws.com\/files\/9fab0e13b2deca8a1713f47927783a973061c54c\/original.jpeg"},"type":"NORMAL","v2_id":"MRJ3QT2CHS22XYIWW63FLPHR"}
+[info] [2019-12-17 05:27:47] Product 'AARA Women's Midi Dress for woman' is simple
+[info] [2019-12-17 05:27:47] Product SKU: SAKKHJ566
+[info] [2019-12-17 05:27:47] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 05:27:47] Product SKU already exists
+[info] [2019-12-17 05:27:47] Inserting product to database with ID : 146
+[info] [2019-12-17 05:27:48] Product inserted to databse with ID: 146
+[info] [2019-12-17 05:27:48] Simple Product Attribute inserted: 146
+[info] [2019-12-17 05:27:48] updating product variation with quantity
+[info] [2019-12-17 05:27:48] Adding Product 'Fossil  Women's Watch' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":true,"pricing_type":"FIXED_PRICING","id":"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f","name":"color[gold]","price_money":{"currency_code":"INR","amount":1500000},"sku":"FRFRE8900","ordinal":1,"item_id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","v2_id":"3RAS7O2GLLKFDONEIVZFX3EA"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","description":"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\r\nBand Color: Gold, Band Material: Stainless Steel\r\nWatch Movement Type: Quartz, Watch Display Type: Digital\r\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\r\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\r\ntouch screen;\r\n2 years warranty","name":"Fossil  Women's Watch","category_id":"b462966a-7b68-4ea1-8f99-d508d7e01463","category":{"id":"b462966a-7b68-4ea1-8f99-d508d7e01463","name":"watch","v2_id":"4KFBR5G4M4BEKKE35A74DYAQ"},"master_image":{"id":"291d9ef3-f83b-4421-aced-93ec0697a8fa","url":"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg"},"type":"NORMAL","v2_id":"7QKVOD5SOG6WBF2DBK4YTSZZ"}
+[info] [2019-12-17 05:27:48] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 05:27:48] Product SKU: FRFRE8900
+[info] [2019-12-17 05:27:48] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 05:27:48] Product SKU already exists
+[info] [2019-12-17 05:27:48] Inserting product to database with ID : 76
+[info] [2019-12-17 05:27:48] Product inserted to databse with ID: 76
+[info] [2019-12-17 05:27:48] Simple Product Attribute inserted: 76
+[info] [2019-12-17 05:27:48] updating product variation with quantity
+[info] [2019-12-17 05:27:50] Terminating manual sync process by ajax
+[info] [2019-12-17 05:27:50] End Manual Sync from Square to Woo-commerce: log:52
+[info] [2019-12-17 05:27:50] ************************************************************
+[info] [2019-12-17 06:06:54] Manual sync: [woo->square] start gathering data
+[info] [2019-12-17 06:06:56] The Simplified curl object{"GHEWCVX8976":"HO5AARYXWUIBXTPP7ZFKTKSG","SAKKHJ566":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","FRFRE8900":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e"}
+[info] [2019-12-17 06:06:56] Manual sync: [woo->square] end gathering data
+[info] [2019-12-17 06:06:58] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 06:07:02] Searching for new products in all items response
+[info] [2019-12-17 06:07:02] Product 'Tea' is simple
+[info] [2019-12-17 06:07:02] Product SKU: GHEWCVX8976
+[info] [2019-12-17 06:07:02] Product with SKU [GHEWCVX8976] exists prod ids:[167]
+[info] [2019-12-17 06:07:02] Product 'AARA Women's Midi Dress for woman' is simple
+[info] [2019-12-17 06:07:02] Product SKU: SAKKHJ566
+[info] [2019-12-17 06:07:02] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 06:07:02] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 06:07:02] Product SKU: FRFRE8900
+[info] [2019-12-17 06:07:02] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 06:07:03] The Simplified inventory curl object{"79cdbdfb-508a-417a-8892-fe4896e50640":5,"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f":100}
+[info] [2019-12-17 06:07:03] Manual sync: [square->woo] start gathering data
+[info] [2019-12-17 06:07:09] ************************************************************
+[info] [2019-12-17 06:07:09] Start Manual Sync from Square to Woo-commerce: log:56
+[info] [2019-12-17 06:07:11] Manual sync: processing update all products:
+[info] [2019-12-17 06:07:11] Manual sync: the skipped products ids (no skus) :[]
+[info] [2019-12-17 06:07:11] Adding Product 'Tea' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":false,"pricing_type":"FIXED_PRICING","id":"7GV7ZIUJDKAZ3WFA2GUKVDZY","name":"Regular","price_money":{"currency_code":"INR","amount":5000},"sku":"GHEWCVX8976","ordinal":1,"item_id":"HO5AARYXWUIBXTPP7ZFKTKSG","v2_id":"7GV7ZIUJDKAZ3WFA2GUKVDZY"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"HO5AARYXWUIBXTPP7ZFKTKSG","name":"Tea","master_image":{"id":"27V3Y47HE6NUUKUDKRLMSZIW","url":"https:\/\/square-production.s3.amazonaws.com\/files\/98689252b87299713e4d3911da215c266b7fb989\/original.jpeg"},"type":"NORMAL","v2_id":"HO5AARYXWUIBXTPP7ZFKTKSG"}
+[info] [2019-12-17 06:07:11] Product 'Tea' is simple
+[info] [2019-12-17 06:07:11] Product SKU: GHEWCVX8976
+[info] [2019-12-17 06:07:11] Product with SKU [GHEWCVX8976] exists prod ids:[167]
+[info] [2019-12-17 06:07:11] Product SKU already exists
+[info] [2019-12-17 06:07:11] Inserting product to database with ID : 167
+[info] [2019-12-17 06:07:12] Product inserted to databse with ID: 167
+[info] [2019-12-17 06:07:12] Simple Product Attribute inserted: 167
+[info] [2019-12-17 06:07:12] updating product variation with quantity
+[info] [2019-12-17 06:07:12] uploading product feature image
+[info] [2019-12-17 06:07:17] Adding Product 'AARA Women's Midi Dress for woman' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":true,"pricing_type":"FIXED_PRICING","id":"79cdbdfb-508a-417a-8892-fe4896e50640","name":"size[X]","price_money":{"currency_code":"INR","amount":450000},"sku":"SAKKHJ566","ordinal":1,"item_id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","v2_id":"N6TGQX7WMI2CSRMTDEMSPSGD"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"07ee0cc9-3f3a-475e-9a48-a52891bf815b","description":"\r\n \tCare Instructions: Hand Wash Separately In Cold Water, Dry In Shade, Do Not Bleach, Iron At Low Temperature\r\n \tFit Type: Regular Fit\r\n \tType: High Low Assymetrical Fit And Flare Dress, Fabric: Polyester, Neck Style: Round Neck, Sleeve Type: Short Sleeve\r\n \tDesign: Solid, Length: Knee Length, Style Type: A-Line, Fit &amp; Flare.\r\n \tDress Length In Inches Approx: S ( 37.25 Inch ) :: M ( 38 Inch ) :: L ( 38.75 Inch ) :: XL ( 39.5 Inch )\r\n \t100% Brand New and High Quality Premium Fabric Product which is Modern and Having Trendy design\r\n","name":"AARA Women's Midi Dress for woman","category_id":"5874c477-79b4-4ea4-9112-7b6afb758393","category":{"id":"5874c477-79b4-4ea4-9112-7b6afb758393","name":"simple","v2_id":"R44PUNO6CPC6UUQASAPNUXCV"},"master_image":{"id":"0078ac87-9dbc-4b71-9885-60fb1c503b25","url":"https:\/\/images-production-f.squarecdn.com\/DpiGNk51kx37MhVcbQVicrx41nY=\/https:\/\/square-production.s3.amazonaws.com\/files\/9fab0e13b2deca8a1713f47927783a973061c54c\/original.jpeg"},"type":"NORMAL","v2_id":"MRJ3QT2CHS22XYIWW63FLPHR"}
+[info] [2019-12-17 06:07:17] Product 'AARA Women's Midi Dress for woman' is simple
+[info] [2019-12-17 06:07:17] Product SKU: SAKKHJ566
+[info] [2019-12-17 06:07:17] Product with SKU [SAKKHJ566] exists prod ids:[146]
+[info] [2019-12-17 06:07:17] Product SKU already exists
+[info] [2019-12-17 06:07:17] Inserting product to database with ID : 146
+[info] [2019-12-17 06:07:17] Product inserted to databse with ID: 146
+[info] [2019-12-17 06:07:17] Simple Product Attribute inserted: 146
+[info] [2019-12-17 06:07:17] updating product variation with quantity
+[info] [2019-12-17 06:07:18] Adding Product 'Fossil  Women's Watch' to woo-commerce : {"fees":[],"variations":[{"inventory_alert_type":"NONE","track_inventory":true,"pricing_type":"FIXED_PRICING","id":"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f","name":"color[gold]","price_money":{"currency_code":"INR","amount":1500000},"sku":"FRFRE8900","ordinal":1,"item_id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","v2_id":"3RAS7O2GLLKFDONEIVZFX3EA"}],"available_for_pickup":false,"available_online":false,"visibility":"PRIVATE","id":"f2a7ac36-d181-43f3-b9a0-bd1897810c4e","description":"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\r\nBand Color: Gold, Band Material: Stainless Steel\r\nWatch Movement Type: Quartz, Watch Display Type: Digital\r\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\r\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\r\ntouch screen;\r\n2 years warranty","name":"Fossil  Women's Watch","category_id":"b462966a-7b68-4ea1-8f99-d508d7e01463","category":{"id":"b462966a-7b68-4ea1-8f99-d508d7e01463","name":"watch","v2_id":"4KFBR5G4M4BEKKE35A74DYAQ"},"master_image":{"id":"291d9ef3-f83b-4421-aced-93ec0697a8fa","url":"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg"},"type":"NORMAL","v2_id":"7QKVOD5SOG6WBF2DBK4YTSZZ"}
+[info] [2019-12-17 06:07:18] Product 'Fossil  Women's Watch' is simple
+[info] [2019-12-17 06:07:18] Product SKU: FRFRE8900
+[info] [2019-12-17 06:07:18] Product with SKU [FRFRE8900] exists prod ids:[76]
+[info] [2019-12-17 06:07:18] Product SKU already exists
+[info] [2019-12-17 06:07:18] Inserting product to database with ID : 76
+[info] [2019-12-17 06:07:18] Product inserted to databse with ID: 76
+[info] [2019-12-17 06:07:18] Simple Product Attribute inserted: 76
+[info] [2019-12-17 06:07:18] updating product variation with quantity
+[info] [2019-12-17 06:07:19] Terminating manual sync process by ajax
+[info] [2019-12-17 06:07:20] End Manual Sync from Square to Woo-commerce: log:56
+[info] [2019-12-17 06:07:20] ************************************************************
+[info] [2019-12-17 06:19:27] Getting currency code for square token: EAAAEM6St6nTdvyikPUICAACWzpxxz3noZDwW5WJYzgukwgO8Johe2jKTMSEmjle, url: https://connect.squareup.com/v1/8345JKBBVT1QE and location: 8345JKBBVT1QE
+[info] [2019-12-17 06:19:29] The response of current location curl request{"headers":{},"body":"{\"account_capabilities\":[],\"id\":\"8345JKBBVT1QE\",\"name\":\"My Business\",\"email\":\"goyanihiral20107@gmail.com\",\"country_code\":\"IN\",\"language_code\":\"en\",\"business_type\":\"OTHER\",\"account_type\":\"LOCATION\",\"location_details\":{\"nickname\":\"My Business\"},\"currency_code\":\"INR\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:30:04] [add_update_product_hook] Start updating product on Square
+[info] [2019-12-19 04:30:04] Adding/Updating  product: Fossil  Women's Watch [ id=76 ]
+[info] [2019-12-19 04:30:05] GET  product with square_id = f2a7ac36-d181-43f3-b9a0-bd1897810c4e
+[info] [2019-12-19 04:30:06] The response of current location curl request{"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"291d9ef3-f83b-4421-aced-93ec0697a8fa\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:30:08] The response of updating inventory curl request{"headers":{},"body":"{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:30:09] The response of adding new product curl request {"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"291d9ef3-f83b-4421-aced-93ec0697a8fa\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:30:09] calling Manage_stock_from_square for76
+[info] [2019-12-19 04:30:11] Updating product inventory for simple product (1 variations)
+[info] [2019-12-19 04:30:11] The response of updating inventory curl request{"headers":{},"body":"{\"variation_id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"quantity_on_hand\":100}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:31:12] [add_update_product_hook] Start updating product on Square
+[info] [2019-12-19 04:31:12] Adding/Updating  product: Fossil  Women's Watch [ id=76 ]
+[info] [2019-12-19 04:31:16] GET  product with square_id = f2a7ac36-d181-43f3-b9a0-bd1897810c4e
+[info] [2019-12-19 04:31:20] The response of current location curl request{"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"291d9ef3-f83b-4421-aced-93ec0697a8fa\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:31:23] The response of updating inventory curl request{"headers":{},"body":"{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:31:24] The response of adding new product curl request {"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"291d9ef3-f83b-4421-aced-93ec0697a8fa\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:31:24] calling Manage_stock_from_square for76
+[info] [2019-12-19 04:31:25] Updating product inventory for simple product (1 variations)
+[info] [2019-12-19 04:31:26] The response of updating inventory curl request{"headers":{},"body":"{\"variation_id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"quantity_on_hand\":100}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:33:04] [add_update_product_hook] Start updating product on Square
+[info] [2019-12-19 04:33:04] Adding/Updating  product: Fossil  Women's Watch [ id=76 ]
+[info] [2019-12-19 04:33:06] GET  product with square_id = f2a7ac36-d181-43f3-b9a0-bd1897810c4e
+[info] [2019-12-19 04:33:07] The response of current location curl request{"headers":{},"body":"{\"images\":[],\"fees\":[],\"modifier_lists\":[],\"variations\":[{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}],\"available_for_pickup\":false,\"available_online\":false,\"visibility\":\"PRIVATE\",\"id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"description\":\"Dial Color: Black, Case Shape: Round, Dial Glass Material: Glass\\r\\nBand Color: Gold, Band Material: Stainless Steel\\r\\nWatch Movement Type: Quartz, Watch Display Type: Digital\\r\\nCase Material: Stainless Steel, Case Diameter: 40 millimeters, Stainless Steel Bezel\\r\\nWater Resistance Depth: 30 meters, Fold-Over Clasp with Double Push Button Safety\\r\\ntouch screen;\\r\\n2 years warranty\",\"name\":\"Fossil  Women's Watch\",\"category_id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"category\":{\"id\":\"b462966a-7b68-4ea1-8f99-d508d7e01463\",\"name\":\"watch\",\"v2_id\":\"4KFBR5G4M4BEKKE35A74DYAQ\"},\"master_image\":{\"id\":\"291d9ef3-f83b-4421-aced-93ec0697a8fa\",\"url\":\"https:\/\/images-production-f.squarecdn.com\/5iDAtBI3vxkeTqGOtzlTYNZXiUs=\/https:\/\/square-production.s3.amazonaws.com\/files\/37882beae71ec6862c4537a94684b1cfebd1a11c\/original.jpeg\"},\"type\":\"NORMAL\",\"v2_id\":\"7QKVOD5SOG6WBF2DBK4YTSZZ\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:33:08] The response of updating inventory curl request{"headers":{},"body":"{\"inventory_alert_type\":\"NONE\",\"track_inventory\":true,\"pricing_type\":\"FIXED_PRICING\",\"id\":\"f9e979d8-6cfa-4505-85c5-6dfa9f61be3f\",\"name\":\"color[gold]\",\"price_money\":{\"currency_code\":\"INR\",\"amount\":1500000},\"sku\":\"FRFRE8900\",\"ordinal\":1,\"item_id\":\"f2a7ac36-d181-43f3-b9a0-bd1897810c4e\",\"v2_id\":\"3RAS7O2GLLKFDONEIVZFX3EA\"}","response":{"code":200,"message":"OK"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+[info] [2019-12-19 04:33:12] The response of adding new product curl request {"errors":{"http_request_failed":["cURL error 7: Failed to connect to connect.squareup.com port 443: Timed out"]},"error_data":[]}

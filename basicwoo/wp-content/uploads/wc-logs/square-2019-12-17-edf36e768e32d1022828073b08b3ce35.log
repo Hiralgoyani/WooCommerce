@@ -1,0 +1,2239 @@
+12-17-2019 @ 04:46:32 - Access token successfully received.
+12-17-2019 @ 04:46:32 - Refresh token successfully received.
+12-17-2019 @ 04:51:17 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 2.40192s
+
+12-17-2019 @ 04:51:17 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:51:15 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:51:33 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.92349s
+
+12-17-2019 @ 04:51:33 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:51:31 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:52:25 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 1.49967s
+
+12-17-2019 @ 04:52:25 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:52:22 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:52:37 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 2.27562s
+
+12-17-2019 @ 04:52:37 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:52:35 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:54:45 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 1.7189s
+
+12-17-2019 @ 04:54:45 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:54:43 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:55:50 - Starting step cycle: import_products
+12-17-2019 @ 04:55:52 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 100
+}
+duration: 1.83653s
+
+12-17-2019 @ 04:55:52 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:55:50 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:55:52 - Imported Products Count: 0
+12-17-2019 @ 04:55:52 - Completed job step: import_products
+12-17-2019 @ 04:55:52 - Completed step cycle: import_products (2.10s)
+12-17-2019 @ 04:55:53 - Starting step cycle: import_inventory
+12-17-2019 @ 04:55:58 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 1.78356s
+
+12-17-2019 @ 04:55:58 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:55:57 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:15 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM_VARIATION"
+    ],
+    "limit": 100
+}
+duration: 21.90326s
+
+12-17-2019 @ 04:56:15 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:13 GMT
+    [content-length] => 351
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM_VARIATION",
+            "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_variation_data": {
+                "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                "name": "Regular",
+                "ordinal": 1,
+                "pricing_type": "VARIABLE_PRICING"
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:16 - Request
+Request
+method:
+uri: batchRetrieveInventoryCountsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "catalog_object_ids": [
+        "7GV7ZIUJDKAZ3WFA2GUKVDZY"
+    ],
+    "location_ids": [
+        ""
+    ]
+}
+duration: 0.91896s
+
+12-17-2019 @ 04:56:16 - Response
+Response
+code: 404
+message:
+headers: Array
+(
+    [0] => HTTP/2 404
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:14 GMT
+    [content-length] => 134
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: Array
+(
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [category] => INVALID_REQUEST_ERROR
+                    [code] => NOT_FOUND
+                    [detail] => This merchant does not have a location with the ID ``.
+                )
+
+        )
+
+)
+
+12-17-2019 @ 04:56:16 - Failed step cycle: import_inventory (22.94s) - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:56:16 - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:56:28 - Starting step cycle: import_products
+12-17-2019 @ 04:56:29 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 100
+}
+duration: 0.90753s
+
+12-17-2019 @ 04:56:29 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:27 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:29 - Imported Products Count: 0
+12-17-2019 @ 04:56:29 - Completed job step: import_products
+12-17-2019 @ 04:56:29 - Completed step cycle: import_products (1.09s)
+12-17-2019 @ 04:56:30 - Starting step cycle: import_inventory
+12-17-2019 @ 04:56:31 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM_VARIATION"
+    ],
+    "limit": 100
+}
+duration: 1.58661s
+
+12-17-2019 @ 04:56:31 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:30 GMT
+    [content-length] => 351
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM_VARIATION",
+            "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_variation_data": {
+                "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                "name": "Regular",
+                "ordinal": 1,
+                "pricing_type": "VARIABLE_PRICING"
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:33 - Request
+Request
+method:
+uri: batchRetrieveInventoryCountsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "catalog_object_ids": [
+        "7GV7ZIUJDKAZ3WFA2GUKVDZY"
+    ],
+    "location_ids": [
+        ""
+    ]
+}
+duration: 1.64476s
+
+12-17-2019 @ 04:56:33 - Response
+Response
+code: 404
+message:
+headers: Array
+(
+    [0] => HTTP/2 404
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:32 GMT
+    [content-length] => 134
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: Array
+(
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [category] => INVALID_REQUEST_ERROR
+                    [code] => NOT_FOUND
+                    [detail] => This merchant does not have a location with the ID ``.
+                )
+
+        )
+
+)
+
+12-17-2019 @ 04:56:33 - Failed step cycle: import_inventory (3.29s) - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:56:33 - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:56:37 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.8602s
+
+12-17-2019 @ 04:56:37 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:35 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:38 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 1.60595s
+
+12-17-2019 @ 04:56:38 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:36 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:56 - Starting step cycle: import_products
+12-17-2019 @ 04:56:57 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 100
+}
+duration: 0.88011s
+
+12-17-2019 @ 04:56:57 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:55 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:56:57 - Imported Products Count: 0
+12-17-2019 @ 04:56:57 - Completed job step: import_products
+12-17-2019 @ 04:56:57 - Completed step cycle: import_products (1.06s)
+12-17-2019 @ 04:56:58 - Starting step cycle: import_inventory
+12-17-2019 @ 04:56:59 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM_VARIATION"
+    ],
+    "limit": 100
+}
+duration: 0.85331s
+
+12-17-2019 @ 04:56:59 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:58 GMT
+    [content-length] => 351
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM_VARIATION",
+            "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_variation_data": {
+                "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                "name": "Regular",
+                "ordinal": 1,
+                "pricing_type": "VARIABLE_PRICING"
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:00 - Request
+Request
+method:
+uri: batchRetrieveInventoryCountsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "catalog_object_ids": [
+        "7GV7ZIUJDKAZ3WFA2GUKVDZY"
+    ],
+    "location_ids": [
+        ""
+    ]
+}
+duration: 0.84211s
+
+12-17-2019 @ 04:57:00 - Response
+Response
+code: 404
+message:
+headers: Array
+(
+    [0] => HTTP/2 404
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:56:59 GMT
+    [content-length] => 134
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: Array
+(
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [category] => INVALID_REQUEST_ERROR
+                    [code] => NOT_FOUND
+                    [detail] => This merchant does not have a location with the ID ``.
+                )
+
+        )
+
+)
+
+12-17-2019 @ 04:57:00 - Failed step cycle: import_inventory (1.78s) - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:57:00 - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:57:02 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.8334s
+
+12-17-2019 @ 04:57:02 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:01 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:08 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.8588s
+
+12-17-2019 @ 04:57:08 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:06 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:37 - Starting step cycle: import_products
+12-17-2019 @ 04:57:41 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 3.84327s
+
+12-17-2019 @ 04:57:41 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:40 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:42 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.87753s
+
+12-17-2019 @ 04:57:42 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:41 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:44 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 100
+}
+duration: 6.6131s
+
+12-17-2019 @ 04:57:44 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:42 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:44 - Imported Products Count: 0
+12-17-2019 @ 04:57:44 - Completed job step: import_products
+12-17-2019 @ 04:57:44 - Completed step cycle: import_products (6.89s)
+12-17-2019 @ 04:57:45 - Starting step cycle: import_inventory
+12-17-2019 @ 04:57:46 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM_VARIATION"
+    ],
+    "limit": 100
+}
+duration: 1.0676s
+
+12-17-2019 @ 04:57:46 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:45 GMT
+    [content-length] => 351
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM_VARIATION",
+            "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_variation_data": {
+                "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                "name": "Regular",
+                "ordinal": 1,
+                "pricing_type": "VARIABLE_PRICING"
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:57:47 - Request
+Request
+method:
+uri: batchRetrieveInventoryCountsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "catalog_object_ids": [
+        "7GV7ZIUJDKAZ3WFA2GUKVDZY"
+    ],
+    "location_ids": [
+        ""
+    ]
+}
+duration: 0.92482s
+
+12-17-2019 @ 04:57:47 - Response
+Response
+code: 404
+message:
+headers: Array
+(
+    [0] => HTTP/2 404
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:57:46 GMT
+    [content-length] => 134
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: Array
+(
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [category] => INVALID_REQUEST_ERROR
+                    [code] => NOT_FOUND
+                    [detail] => This merchant does not have a location with the ID ``.
+                )
+
+        )
+
+)
+
+12-17-2019 @ 04:57:47 - Failed step cycle: import_inventory (2.06s) - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:57:47 - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 04:58:19 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.87819s
+
+12-17-2019 @ 04:58:19 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:58:18 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:58:48 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.82904s
+
+12-17-2019 @ 04:58:48 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:58:47 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:59:31 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.9521s
+
+12-17-2019 @ 04:59:31 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:59:31 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:59:39 - Starting step cycle: validate_products
+12-17-2019 @ 04:59:39 - Completed job step: validate_products
+12-17-2019 @ 04:59:39 - Completed step cycle: validate_products (0.15s)
+12-17-2019 @ 04:59:40 - Starting step cycle: square_sor_sync
+12-17-2019 @ 04:59:40 - Generating a new catalog search request
+12-17-2019 @ 04:59:41 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 300
+}
+duration: 0.93607s
+
+12-17-2019 @ 04:59:41 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:59:41 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 04:59:41 - Searching for products in 1 Square objects
+12-17-2019 @ 04:59:42 - Found 0 products with matching SKUs
+12-17-2019 @ 04:59:42 - Completed step cycle: square_sor_sync (2.05s)
+12-17-2019 @ 04:59:42 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.91357s
+
+12-17-2019 @ 04:59:42 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 04:59:42 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 04:59:44 - Starting step cycle: square_sor_sync
+12-17-2019 @ 04:59:44 - Square catalog fully processed
+12-17-2019 @ 04:59:45 - Completed job step: square_sor_sync
+12-17-2019 @ 04:59:45 - Completed step cycle: square_sor_sync (0.56s)
+12-17-2019 @ 04:59:46 - Starting step cycle: pull_inventory
+12-17-2019 @ 04:59:46 - Completed job step: pull_inventory
+12-17-2019 @ 04:59:46 - Completed step cycle: pull_inventory (0.10s)
+12-17-2019 @ 05:00:19 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.99484s
+
+12-17-2019 @ 05:00:19 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:00:18 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:00:57 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.87752s
+
+12-17-2019 @ 05:00:57 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:00:56 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:01:36 - Starting step cycle: validate_products
+12-17-2019 @ 05:01:36 - Completed job step: validate_products
+12-17-2019 @ 05:01:36 - Completed step cycle: validate_products (0.17s)
+12-17-2019 @ 05:01:38 - Starting step cycle: square_sor_sync
+12-17-2019 @ 05:01:38 - Generating a new catalog search request
+12-17-2019 @ 05:01:39 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 300
+}
+duration: 0.96276s
+
+12-17-2019 @ 05:01:39 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:01:38 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 05:01:39 - Searching for products in 1 Square objects
+12-17-2019 @ 05:01:39 - Found 0 products with matching SKUs
+12-17-2019 @ 05:01:39 - Completed step cycle: square_sor_sync (1.64s)
+12-17-2019 @ 05:01:40 - Starting step cycle: square_sor_sync
+12-17-2019 @ 05:01:41 - Square catalog fully processed
+12-17-2019 @ 05:01:41 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 1.78993s
+
+12-17-2019 @ 05:01:41 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:01:40 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:01:41 - Completed job step: square_sor_sync
+12-17-2019 @ 05:01:41 - Completed step cycle: square_sor_sync (0.39s)
+12-17-2019 @ 05:01:43 - Starting step cycle: pull_inventory
+12-17-2019 @ 05:01:43 - Completed job step: pull_inventory
+12-17-2019 @ 05:01:43 - Completed step cycle: pull_inventory (0.12s)
+12-17-2019 @ 05:02:18 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.76754s
+
+12-17-2019 @ 05:02:18 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:02:17 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:03:36 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.86644s
+
+12-17-2019 @ 05:03:36 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:03:35 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:03:53 - Starting step cycle: import_products
+12-17-2019 @ 05:03:54 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM"
+    ],
+    "include_related_objects": true,
+    "limit": 100
+}
+duration: 0.80666s
+
+12-17-2019 @ 05:03:54 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:03:54 GMT
+    [content-length] => 633
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM",
+            "id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_data": {
+                "name": "Tea",
+                "variations": [
+                    {
+                        "type": "ITEM_VARIATION",
+                        "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+                        "updated_at": "2019-12-17T04:54:26.768Z",
+                        "version": 1576558466768,
+                        "is_deleted": false,
+                        "present_at_all_locations": true,
+                        "item_variation_data": {
+                            "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                            "name": "Regular",
+                            "ordinal": 1,
+                            "pricing_type": "VARIABLE_PRICING"
+                        }
+                    }
+                ],
+                "product_type": "REGULAR",
+                "skip_modifier_screen": false
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 05:03:54 - Imported Products Count: 0
+12-17-2019 @ 05:03:54 - Completed job step: import_products
+12-17-2019 @ 05:03:54 - Completed step cycle: import_products (1.12s)
+12-17-2019 @ 05:03:55 - Starting step cycle: import_inventory
+12-17-2019 @ 05:03:56 - Request
+Request
+method:
+uri: searchCatalogObjectsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "object_types": [
+        "ITEM_VARIATION"
+    ],
+    "limit": 100
+}
+duration: 0.75509s
+
+12-17-2019 @ 05:03:56 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:03:56 GMT
+    [content-length] => 351
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "objects": [
+        {
+            "type": "ITEM_VARIATION",
+            "id": "7GV7ZIUJDKAZ3WFA2GUKVDZY",
+            "updated_at": "2019-12-17T04:54:26.768Z",
+            "version": 1576558466768,
+            "is_deleted": false,
+            "present_at_all_locations": true,
+            "item_variation_data": {
+                "item_id": "HO5AARYXWUIBXTPP7ZFKTKSG",
+                "name": "Regular",
+                "ordinal": 1,
+                "pricing_type": "VARIABLE_PRICING"
+            }
+        }
+    ]
+}
+
+12-17-2019 @ 05:03:57 - Request
+Request
+method:
+uri: batchRetrieveInventoryCountsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body: {
+    "catalog_object_ids": [
+        "7GV7ZIUJDKAZ3WFA2GUKVDZY"
+    ],
+    "location_ids": [
+        ""
+    ]
+}
+duration: 0.73524s
+
+12-17-2019 @ 05:03:57 - Response
+Response
+code: 404
+message:
+headers: Array
+(
+    [0] => HTTP/2 404
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:03:57 GMT
+    [content-length] => 134
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: Array
+(
+    [errors] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [category] => INVALID_REQUEST_ERROR
+                    [code] => NOT_FOUND
+                    [detail] => This merchant does not have a location with the ID ``.
+                )
+
+        )
+
+)
+
+12-17-2019 @ 05:03:57 - Failed step cycle: import_inventory (1.56s) - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 05:03:57 - [NOT_FOUND] This merchant does not have a location with the ID ``.
+12-17-2019 @ 05:03:59 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.75872s
+
+12-17-2019 @ 05:03:59 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:03:59 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:04:05 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.77446s
+
+12-17-2019 @ 05:04:05 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:04:04 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+
+12-17-2019 @ 05:04:07 - Request
+Request
+method:
+uri: listLocationsWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.8.1; WordPress/5.3.1)
+headers: Array
+(
+)
+body:
+duration: 0.77769s
+
+12-17-2019 @ 05:04:07 - Response
+Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/2 200
+    [content-type] => application/json
+    [square-version] => 2019-08-14
+    [vary] => Origin, Accept-Encoding
+    [x-content-type-options] => nosniff
+    [x-download-options] => noopen
+    [x-frame-options] => SAMEORIGIN
+    [x-permitted-cross-domain-policies] => none
+    [x-xss-protection] => 1; mode=block
+    [date] => Tue, 17 Dec 2019 05:04:06 GMT
+    [content-length] => 273
+    [strict-transport-security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "locations": [
+        {
+            "id": "8345JKBBVT1QE",
+            "name": "My Business",
+            "timezone": "Asia\/Kolkata",
+            "status": "ACTIVE",
+            "created_at": "2019-12-17T04:44:47Z",
+            "merchant_id": "VFD3JZNP7H7JX",
+            "country": "IN",
+            "language_code": "en",
+            "currency": "INR",
+            "type": "PHYSICAL",
+            "business_hours": {}
+        }
+    ]
+}
+

@@ -1,0 +1,22 @@
+2019-12-17T05:18:28+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php:698
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php(553): WooToSquareSynchronizer->uploadImage('07ee0cc9-3f3a-4...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\admin\ajax.php(380): WooToSquareSynchronizer->addProduct(Object(WP_Post), '07ee0cc9-3f3a-4...')
+#2 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): woo_square_plugin_sync_woo_product_to_square('')
+#3 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\basicwoo\wp-admin\admin-ajax.php(175): do_action('wp_ajax_sync_wo...')
+#6 {main}
+  thrown in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php on line 698
+
+2019-12-17T05:18:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php:1012
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php(289): WooToSquareSynchronizer->getSquareCategories()
+#1 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\admin\ajax.php(380): WooToSquareSynchronizer->addProduct(Object(WP_Post), false)
+#2 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): woo_square_plugin_sync_woo_product_to_square('')
+#3 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\basicwoo\wp-admin\admin-ajax.php(175): do_action('wp_ajax_sync_wo...')
+#6 {main}
+  thrown in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php on line 1012
+

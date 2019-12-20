@@ -1,0 +1,52 @@
+12-20-2019 @ 05:28:52 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => basicwoo
+    [RETURNURL] => http://localhost/basicwoo/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/basicwoo/cart/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => INR
+    [PAYMENTREQUEST_0_AMT] => 500
+    [PAYMENTREQUEST_0_ITEMAMT] => 500
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => admin@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => Test QQQ
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 145, earth residensy
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Jkatnaka
+    [PAYMENTREQUEST_0_SHIPTOCITY] => surat
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => GJ
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 394105
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => IN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 7845784578
+    [L_PAYMENTREQUEST_0_NAME0] => Cake
+    [L_PAYMENTREQUEST_0_DESC0] => ke is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked. In their oldest forms, cakes w
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 500
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => sb-jyn1c756348_api1.business.example.com
+    [PWD] => 4E3AD5VBUHWAKPK5
+    [SIGNATURE] => AwVUNfYiwjaMEmnCAxpWaESO2bGQAlwps4PXDJ-JdU16iXG03S28y-HN
+)
+
+12-20-2019 @ 05:28:54 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-5GL2224920229623E
+    [TIMESTAMP] => 2019-12-20T05:28:54Z
+    [CORRELATIONID] => cb8786385767a
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 53949135
+)
+

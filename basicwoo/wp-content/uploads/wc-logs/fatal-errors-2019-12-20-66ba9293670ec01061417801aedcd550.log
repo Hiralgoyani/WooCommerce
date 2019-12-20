@@ -1,0 +1,49 @@
+2019-12-20T06:00:35+00:00 CRITICAL Uncaught WC_Stripe_Exception: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+ in C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce-gateway-stripe\includes\class-wc-stripe-api.php:140
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce-gateway-stripe\includes\class-wc-stripe-customer.php(309): WC_Stripe_API::request(Array, 'customers/cus_G...', 'GET')
+#1 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce-gateway-stripe\includes\class-wc-stripe-payment-tokens.php(103): WC_Stripe_Customer->get_sources()
+#2 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): WC_Stripe_Payment_Tokens->woocommerce_get_customer_payment_tokens(Array, 1, 'stripe')
+#3 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(206): WP_Hook->apply_filt in C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce-gateway-stripe\includes\class-wc-stripe-api.php on line 140
+
+2019-12-20T06:28:08+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 315
+
+2019-12-20T06:47:30+00:00 CRITICAL syntax error, unexpected ''_billing_title'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 318
+
+2019-12-20T06:52:16+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 323
+
+2019-12-20T06:54:35+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): wdm_update_formatted_billing_address(Array, Object(WC_Order))
+#1 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\includes\class-wc-order.php(879): apply_filters('woocommerce_ord...', Array, Object(WC_Order))
+#3 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\templates\order\order-details-customer.php(34): WC_Order->get_formatted_billing_address('N/A')
+#4 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\templates\order\order-details.php(105): wc_get_template('order/order-det...', Array)
+#6 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\in in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 326
+
+2019-12-20T06:55:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:326
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): wdm_update_formatted_billing_address(Array, Object(WC_Order))
+#1 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\includes\class-wc-order.php(879): apply_filters('woocommerce_ord...', Array, Object(WC_Order))
+#3 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\templates\order\order-details-customer.php(34): WC_Order->get_formatted_billing_address('N/A')
+#4 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\templates\order\order-details.php(105): wc_get_template('order/order-det...', Array)
+#6 C:\xampp\htdocs\basicwoo\wp-content\plugins\woocommerce\in in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 326
+

@@ -1,0 +1,375 @@
+12-17-2019 @ 10:50:27 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => basicwoo
+    [RETURNURL] => http://localhost/basicwoo/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/basicwoo/cart/?woo-paypal-cancel=true
+    [ADDROVERRIDE] => 1
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => INR
+    [PAYMENTREQUEST_0_AMT] => 1067
+    [PAYMENTREQUEST_0_ITEMAMT] => 1067
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => admin@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => Test QQQ
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 145, earth residensy
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Jkatnaka
+    [PAYMENTREQUEST_0_SHIPTOCITY] => surat
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => GJ
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 394105
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => IN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 7845784578
+    [L_PAYMENTREQUEST_0_NAME0] => CLARK N PALMER SUNGLASSES
+    [L_PAYMENTREQUEST_0_DESC0] => Size Map: Medium
+Frame size: Lens width - 59 mm, nose-bridge: 15 mm, temple length: 138 mm
+No Warranty
+100% UV protected
+Black 
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 1067
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+12-17-2019 @ 10:50:29 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-12-17T10:50:29Z
+    [CORRELATIONID] => a5c60af1e4e64
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 53842365
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+12-17-2019 @ 10:58:20 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => basicwoo
+    [RETURNURL] => http://localhost/basicwoo/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/basicwoo/cart/?woo-paypal-cancel=true
+    [ADDROVERRIDE] => 1
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => INR
+    [PAYMENTREQUEST_0_AMT] => 1067
+    [PAYMENTREQUEST_0_ITEMAMT] => 1067
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => admin@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => Test QQQ
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 145, earth residensy
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Jkatnaka
+    [PAYMENTREQUEST_0_SHIPTOCITY] => surat
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => GJ
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 394105
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => IN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 7845784578
+    [L_PAYMENTREQUEST_0_NAME0] => CLARK N PALMER SUNGLASSES
+    [L_PAYMENTREQUEST_0_DESC0] => Size Map: Medium
+Frame size: Lens width - 59 mm, nose-bridge: 15 mm, temple length: 138 mm
+No Warranty
+100% UV protected
+Black 
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 1067
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+12-17-2019 @ 10:58:21 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-12-17T10:58:21Z
+    [CORRELATIONID] => 5919799403009
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 53842365
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+12-17-2019 @ 11:02:24 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => sb-vae0m755003@personal.example.com
+    [PWD] => 6#,qH7]g
+    [SIGNATURE] => access_token$sandbox$8myhq2kbnd4csky9$9c337ba78106c458a580c12718e47c9a
+)
+
+12-17-2019 @ 11:02:25 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-12-17T11:02:25Z
+    [CORRELATIONID] => eecbe5723d82d
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 53802284
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+12-17-2019 @ 11:02:49 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => sb-vae0m755003@personal.example.com
+    [PWD] => 6#,qH7]g
+    [SIGNATURE] => $sandbox$8myhq2kbnd4csky9$9c337ba78106c458a580c12718e47c9a
+)
+
+12-17-2019 @ 11:02:50 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-12-17T11:02:50Z
+    [CORRELATIONID] => 766da9652f952
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 53802284
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+12-17-2019 @ 11:47:55 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => rhc-facilitator_api1.narola.email
+    [PWD] => KMQV3H35TJU9E8EJ
+    [SIGNATURE] => Aec0DDQC2WgcDxX8Q.ACl7YYrgu5AR4YcW6-1r4cvTlBXw0P9PURR4nC
+)
+
+12-17-2019 @ 11:47:57 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 4LFZ4WB3U6KX2
+    [LOCALE] => en_GB
+    [TIMESTAMP] => 2019-12-17T11:47:56Z
+    [CORRELATIONID] => 83c71f35fda54
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 53802284
+)
+
+12-17-2019 @ 11:48:16 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => basicwoo
+    [RETURNURL] => http://localhost/basicwoo/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/basicwoo/cart/?woo-paypal-cancel=true
+    [ADDROVERRIDE] => 1
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => INR
+    [PAYMENTREQUEST_0_AMT] => 1067
+    [PAYMENTREQUEST_0_ITEMAMT] => 1067
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => admin@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => Test QQQ
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 145, earth residensy
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Jkatnaka
+    [PAYMENTREQUEST_0_SHIPTOCITY] => surat
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => GJ
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 394105
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => IN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 7845784578
+    [L_PAYMENTREQUEST_0_NAME0] => CLARK N PALMER SUNGLASSES
+    [L_PAYMENTREQUEST_0_DESC0] => Size Map: Medium
+Frame size: Lens width - 59 mm, nose-bridge: 15 mm, temple length: 138 mm
+No Warranty
+100% UV protected
+Black 
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 1067
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => rhc-facilitator_api1.narola.email
+    [PWD] => KMQV3H35TJU9E8EJ
+    [SIGNATURE] => Aec0DDQC2WgcDxX8Q.ACl7YYrgu5AR4YcW6-1r4cvTlBXw0P9PURR4nC
+)
+
+12-17-2019 @ 11:48:18 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-6TU8112441265544U
+    [TIMESTAMP] => 2019-12-17T11:48:18Z
+    [CORRELATIONID] => fcce55c3fbe2c
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 53842365
+)
+
+12-17-2019 @ 12:18:09 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => sb-jyn1c756348_api1.business.example.com
+    [PWD] => 4E3AD5VBUHWAKPK5
+    [SIGNATURE] => AwVUNfYiwjaMEmnCAxpWaESO2bGQAlwps4PXDJ-JdU16iXG03S28y-HN
+)
+
+12-17-2019 @ 12:18:11 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => KKZSSSSLGW6PQ
+    [LOCALE] => en_GB
+    [TIMESTAMP] => 2019-12-17T12:18:11Z
+    [CORRELATIONID] => 4f385ab5b7bba
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 53802284
+)
+
+12-17-2019 @ 12:18:28 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => basicwoo
+    [RETURNURL] => http://localhost/basicwoo/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/basicwoo/cart/?woo-paypal-cancel=true
+    [ADDROVERRIDE] => 1
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => INR
+    [PAYMENTREQUEST_0_AMT] => 1067
+    [PAYMENTREQUEST_0_ITEMAMT] => 1067
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => admin@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => Test QQQ
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 145, earth residensy
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Jkatnaka
+    [PAYMENTREQUEST_0_SHIPTOCITY] => surat
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => GJ
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 394105
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => IN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 7845784578
+    [L_PAYMENTREQUEST_0_NAME0] => CLARK N PALMER SUNGLASSES
+    [L_PAYMENTREQUEST_0_DESC0] => Size Map: Medium
+Frame size: Lens width - 59 mm, nose-bridge: 15 mm, temple length: 138 mm
+No Warranty
+100% UV protected
+Black 
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 1067
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => sb-jyn1c756348_api1.business.example.com
+    [PWD] => 4E3AD5VBUHWAKPK5
+    [SIGNATURE] => AwVUNfYiwjaMEmnCAxpWaESO2bGQAlwps4PXDJ-JdU16iXG03S28y-HN
+)
+
+12-17-2019 @ 12:18:30 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-4T856381TL959062Y
+    [TIMESTAMP] => 2019-12-17T12:18:30Z
+    [CORRELATIONID] => 59794282ad2a9
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 53842365
+)
+
+12-17-2019 @ 12:21:07 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => basicwoo
+    [RETURNURL] => http://localhost/basicwoo/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/basicwoo/cart/?woo-paypal-cancel=true
+    [ADDROVERRIDE] => 1
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => INR
+    [PAYMENTREQUEST_0_AMT] => 1067
+    [PAYMENTREQUEST_0_ITEMAMT] => 1067
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => admin@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => Test QQQ
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 145, earth residensy
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Jkatnaka
+    [PAYMENTREQUEST_0_SHIPTOCITY] => surat
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => GJ
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 394105
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => IN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 7845784578
+    [L_PAYMENTREQUEST_0_NAME0] => CLARK N PALMER SUNGLASSES
+    [L_PAYMENTREQUEST_0_DESC0] => Size Map: Medium
+Frame size: Lens width - 59 mm, nose-bridge: 15 mm, temple length: 138 mm
+No Warranty
+100% UV protected
+Black 
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 1067
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => sb-jyn1c756348_api1.business.example.com
+    [PWD] => 4E3AD5VBUHWAKPK5
+    [SIGNATURE] => AwVUNfYiwjaMEmnCAxpWaESO2bGQAlwps4PXDJ-JdU16iXG03S28y-HN
+)
+
+12-17-2019 @ 12:21:09 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TOKEN] => EC-8RU74835XH425614Y
+    [TIMESTAMP] => 2019-12-17T12:21:08Z
+    [CORRELATIONID] => dc316972f2c66
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 53842365
+)
+

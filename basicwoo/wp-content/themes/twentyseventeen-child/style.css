@@ -1,0 +1,174 @@
+/*
+ Theme Name:   Twentyseventeen Child 
+ Description:  
+ Author:       Hiral Goyani
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyseventeen
+*/
+
+/* import default parent styles */
+@import url("../twentyseventeen/style.css");
+
+/* Header */
+header.c-header {
+    background: #eee;
+    position: relative;
+    font-size: 14px;
+}
+.c-header div {
+    display: inline-block;
+}
+.logo {
+    width: 30%;
+    position: relative;
+    padding: 20px;
+}
+.nav-menu {
+    width: 60%;
+    text-align: end;
+}
+.custom-menu-class ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.c-minicart {
+    width: 9%;
+}
+ul.dropdown-menu.dropdown-menu-mini-cart {
+    position: absolute;
+    display: none;
+}
+
+ul.dropdown-menu.dropdown-menu-mini-cart {
+    right: 92px;
+    top: 62px;
+    background: rgb(238, 238, 238);
+    z-index: 9;
+}
+.c-minicart a img {
+    width: 70px;
+    border: 1px solid #00000045;
+}
+ul.dropdown-menu.dropdown-menu-mini-cart, ul.woocommerce-mini-cart.cart_list.product_list_widget {
+    list-style: none;
+}
+.c-minicart .dropdown-menu-mini-cart a.button.wc-forward {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 0 0px 0 15px;
+}
+.cm-close{
+	cursor: pointer;
+    position: absolute;
+    margin-top: 25px;
+    right: 109px;
+    background: #000;
+    padding: 5px 6px;
+    border-radius: 34px;
+    z-index: 99999;
+    color: #fff;
+    height: 24px;
+    width: 24px;
+}
+.c-minicart p.woocommerce-mini-cart__total.total {
+    text-align: end;
+}
+.c-minicart .widget_shopping_cart_content {
+    padding: 5px 10px;
+    color: #000;
+}
+.c-minicart li.woocommerce-mini-cart-item.mini_cart_item{
+	list-style: none;
+}
+.c-minicart a.remove.remove_from_cart_button {
+    background: #fffc;
+    color: red;
+}
+.c-minicart p.woocommerce-mini-cart__total.total span.amount {
+    font-size: 28px;
+    font-weight: 600;
+}
+.c-minicart p.woocommerce-mini-cart__total.total {
+    border-top: 1px solid #00000017;
+}
+.c-minicart .widget_shopping_cart_content p {
+    display: inline-block;
+}
+.c-minicart p.woocommerce-mini-cart__buttons.buttons {
+    float: left;
+    right: 15px;
+    position: relative;
+    top: 11px;
+}
+.thumbnail-woo {
+    vertical-align: middle;
+}
+.thumbnail-woo img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    margin: 0 5px;
+}
+.c-minicart div.dropdown-back {
+    padding: 20px 20px;
+}
+.c-minicart div.dropdown-back:hover {
+    background: #000;
+    color: #fff;
+}
+.c-minicart div.dropdown-back:hover ul.dropdown-menu.dropdown-menu-mini-cart {
+    display: block;
+}
+
+/*product slider */
+.product-container {
+    padding: 1em 7em;
+}
+a.slick-prevbtn.slick-arrow,a.slick-nxtbtn.slick-arrow {
+    color: #fff;
+    background: #000;
+    padding: 6px 10px;
+}
+a.slick-prevbtn.slick-arrow, a.slick-nxtbtn.slick-arrow {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+a.slick-nxtbtn.slick-arrow {
+    right: 0;
+}
+a.slick-prevbtn.slick-arrow {
+    left: -30px;
+}
+.add_to_cart_button {
+    display: none;
+}
+.slc-slider span.price {
+    display: inline-block;
+    width: 100%;
+}
+.slc-slider a{
+	position: relative;
+    text-align: center;
+}
+
+/* Display custom field on product page */
+.product_meta h2.pro-cust-head {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.product_meta .pro-cfield {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+}
+input#woocommerce_product_custom_fields_title {
+    width: 100%;
+}

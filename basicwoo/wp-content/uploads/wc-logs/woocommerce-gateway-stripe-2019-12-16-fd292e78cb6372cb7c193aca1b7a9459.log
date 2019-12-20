@@ -1,0 +1,376 @@
+2019-12-16T11:37:09+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2019-12-16T11:37:19+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2019-12-16T11:47:25+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2019-12-16T11:52:00+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+sources/src_1FqI7EKspotQjzIIhAXkNwpG
+====End Log====
+
+
+2019-12-16T11:52:01+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers request: Array
+(
+    [email] => admin@gmail.com
+    [description] => Name: Test QQQ, Username: Test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2019-12-16T11:52:02+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GN2BD5ah3j7iiy/sources request: Array
+(
+    [source] => src_1FqI7EKspotQjzIIhAXkNwpG
+)
+
+====End Log====
+
+
+2019-12-16T11:52:03+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GN2BD5ah3j7iiy request: Array
+(
+    [default_source] => src_1FqI7EKspotQjzIIhAXkNwpG
+)
+
+====End Log====
+
+
+2019-12-16T11:52:04+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+customers/cus_GN2BD5ah3j7iiy request: Array
+(
+    [email] => admin@gmail.com
+    [description] => Name: Test QQQ, Username: Test
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2019-12-16T11:52:06+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Begin processing payment for order 159 for the amount of 683
+====End Log====
+
+
+2019-12-16T11:52:06+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1FqI7EKspotQjzIIhAXkNwpG
+    [amount] => 68300
+    [currency] => inr
+    [description] => basicwoo - Order 159
+    [metadata] => Array
+        (
+            [customer_name] => Test QQQ
+            [customer_email] => admin@gmail.com
+            [order_id] => 159
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_GN2BD5ah3j7iiy
+)
+
+====End Log====
+
+
+2019-12-16T11:52:07+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FqI7PKspotQjzIIlRMTxhST initiated for order 159
+====End Log====
+
+
+2019-12-16T11:52:07+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FqI7PKspotQjzIIlRMTxhST/confirm request: Array
+(
+    [source] => src_1FqI7EKspotQjzIIhAXkNwpG
+)
+
+====End Log====
+
+
+2019-12-16T11:52:09+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Stripe PaymentIntent pi_1FqI7PKspotQjzIIlRMTxhST succeeded for order 159
+====End Log====
+
+
+2019-12-16T11:52:09+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1FqI7QKspotQjzIIkZRWjNYH
+    [object] => charge
+    [amount] => 68300
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1FqI7QKspotQjzIIlomAU6Zl
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => surat
+                    [country] => IN
+                    [line1] => 145, earth residensy
+                    [line2] => Jkatnaka
+                    [postal_code] => 394105
+                    [state] => GJ
+                )
+
+            [email] => admin@gmail.com
+            [name] => Test QQQ
+            [phone] => 7845784578
+        )
+
+    [captured] => 1
+    [created] => 1576497128
+    [currency] => inr
+    [customer] => cus_GN2BD5ah3j7iiy
+    [description] => basicwoo - Order 159
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Test QQQ
+            [customer_email] => admin@gmail.com
+            [order_id] => 159
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 14
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1FqI7PKspotQjzIIlRMTxhST
+    [payment_method] => src_1FqI7EKspotQjzIIhAXkNwpG
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 8
+                    [exp_year] => 2024
+                    [fingerprint] => f15FrCD5lGLWS3iC
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1FqI1xKspotQjzII/ch_1FqI7QKspotQjzIIkZRWjNYH/rcpt_GN2BJ5GCgHGiOIjORel5uJXSydOWC29
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1FqI7QKspotQjzIIkZRWjNYH/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1FqI7EKspotQjzIIhAXkNwpG
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 8
+                    [exp_year] => 2024
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => f15FrCD5lGLWS3iC
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_GN2Bzi5Ou2FCDaxqkcFmcz2R
+            [created] => 1576497128
+            [currency] => 
+            [customer] => cus_GN2BD5ah3j7iiy
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => surat
+                            [country] => IN
+                            [line1] => 145, earth residensy
+                            [line2] => Jkatnaka
+                            [postal_code] => 394105
+                            [state] => GJ
+                        )
+
+                    [email] => admin@gmail.com
+                    [name] => Test QQQ
+                    [phone] => 7845784578
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => chargeable
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2019-12-16T11:52:09+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FqI7QKspotQjzIIlomAU6Zl
+====End Log====
+
+
+2019-12-16T11:53:50+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Info: Beginning refund for order ch_1FqI7QKspotQjzIIkZRWjNYH for the amount of 50
+====End Log====
+
+
+2019-12-16T11:53:50+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+payment_intents/pi_1FqI7PKspotQjzIIlRMTxhST request: Array
+(
+)
+
+====End Log====
+
+
+2019-12-16T11:53:51+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+refunds request: Array
+(
+    [amount] => 5000
+    [charge] => ch_1FqI7QKspotQjzIIkZRWjNYH
+)
+
+====End Log====
+
+
+2019-12-16T11:53:52+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+balance/history/txn_1FqI96KspotQjzIIEDtQvq3Z
+====End Log====
+
+
+2019-12-16T11:53:53+00:00 DEBUG 
+====Stripe Version: 4.3.1====
+====Start Log====
+Success: Refunded ₹ 50 - Refund ID: re_1FqI96KspotQjzIIvk2PlkTI - Reason:
+====End Log====
+
+

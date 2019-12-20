@@ -1,0 +1,39 @@
+2019-12-19T04:31:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php:698
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php(553): WooToSquareSynchronizer->uploadImage('f2a7ac36-d181-4...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\woocommerce-square-integration.php(379): WooToSquareSynchronizer->addProduct(Object(WP_Post), 'f2a7ac36-d181-4...')
+#2 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): woo_square_add_edit_product(76, Object(WP_Post), true)
+#3 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\basicwoo\wp-includes\post.php(4120): do_action('save_post', 76, Object(WP_Post), true)
+#6 C:\xampp\htdocs\basicwoo\wp-includes\post.php(4197): wp_insert_post(Array, fal in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php on line 698
+
+2019-12-19T04:33:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php:469
+Stack trace:
+#0 C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\woocommerce-square-integration.php(379): WooToSquareSynchronizer->addProduct(Object(WP_Post), 'f2a7ac36-d181-4...')
+#1 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(288): woo_square_add_edit_product(76, Object(WP_Post), true)
+#2 C:\xampp\htdocs\basicwoo\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\basicwoo\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\basicwoo\wp-includes\post.php(4120): do_action('save_post', 76, Object(WP_Post), true)
+#5 C:\xampp\htdocs\basicwoo\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#6 C:\xampp\htdocs\basicwoo\wp-admin\includes\post.php(407): wp_update_post(Array)
+#7 C:\xampp\htdocs\basicwoo\wp-admin\post.php(219): edit_post()
+#8 {main}
+  thrown in C:\xampp\htdocs\basicwoo\wp-content\plugins\woosquare\_inc\WooToSquareSynchronizer.class.php on line 469
+
+2019-12-19T04:59:31+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 165
+
+2019-12-19T09:01:40+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:97) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 177
+
+2019-12-19T09:01:45+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:97) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 177
+
+2019-12-19T09:02:18+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:97) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 177
+
+2019-12-19T09:04:52+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:95) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 177
+
+2019-12-19T09:08:27+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:97) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 177
+
+2019-12-19T09:08:41+00:00 CRITICAL Cannot redeclare woocommerce_product_custom_fields() (previously declared in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php:97) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 177
+
+2019-12-19T09:39:02+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\basicwoo\wp-content\themes\twentyseventeen-child\functions.php on line 158
+

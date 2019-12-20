@@ -1,0 +1,180 @@
+.dashboard_page_ast-getting-started #wpcontent{
+	padding-left: 0px;
+}
+.dashboard_page_ast-getting-started #wpbody{
+	background: rgb(245, 248, 250);
+}
+.ast-admin-welcome-page {
+    position: relative;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ast-onboarding-header {
+    text-align: center;
+}
+.ast-header-navigation {
+    border-top: 4px solid #5f6197;
+    padding: 0 20px;
+    position: relative;
+    text-align: right;
+}
+@media (min-width:782px) {
+    .ast-header-navigation {
+        padding: 0 125px
+    }
+}
+.ast-exit-button {
+    background: #5f6197;
+    border-radius: 0 0 5px 5px;
+    color: #d7d7e5;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    padding: 9px 20px 12px;
+    text-decoration: none;
+    transition: color .1s ease;
+    -moz-transition: color .1s ease;
+    -ms-transition: color .1s ease;
+    -o-transition: color .1s ease;
+    -webkit-transition: color .1s ease;
+}
+.ast-onboarding-header h1 {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.ast-logo {
+    display: inline-block;
+    width: 400px;
+    max-width: 100%;
+}
+
+.ast-bg-img {
+    width: 100%;
+    padding-top: 66%;
+    position: relative;
+}
+
+.ast-logo .ast-bg-img {
+    padding-top: 0;
+}
+
+.ast-onboarding-wizard-container {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.ast-onboarding-wizard-steps {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+}
+
+.ast-onboarding-wizard-step {
+    border: 2px solid #005B9A;
+    border-radius: 50%;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.ast-onboarding-wizard-step.ast-onboarding-wizard-step-active, .ast-onboarding-wizard-step.ast-onboarding-wizard-step-completed {
+    background-color: #005B9A;
+    border-color: #005B9A;
+    position: relative;
+}
+.ast-onboarding-wizard-step.ast-onboarding-wizard-step-completed:after {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    left: -1px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    content: "\f147";
+    font-family: dashicons;
+}
+.ast-onboarding-wizard-step-line {
+    background: #74C2E1;
+    height: 3px;
+    margin: 0 2px;
+    width: 100%;
+}
+
+.ast-onboarding-wizard-container {
+    margin: 0 auto;
+    width: 750px;
+}
+.ast-onboarding-wizard-content {
+    background: #fff;
+    border: 1px solid #eee;
+    color: #777;
+    font-size: 14px;
+    margin: 30px 0 10px;
+    padding: 45px 30px 20px;
+}
+.ast-onboarding-wizard-content h2 {
+    color: #393f4a;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+.ast-onboarding-wizard-content .ast-separator {
+    border-top: 1px solid #eee;
+    clear: both;
+    margin: 26px 0;
+}
+.ast-onboarding-step-shipping,.ast-onboarding-step-delivered,.ast-onboarding-step-trackship{
+	display:none;
+}
+.ast-onboarding-wizard-container section.tab_section{
+	display: block;
+	background: #fff;
+    padding: 0;
+}
+.ast-onboarding-wizard-container .provider {
+    width: 33%;
+}
+.ast-onboarding-wizard-logo .plugin-logo{
+	padding: 15px 0;
+}
+.woocommerce.zorem_admin_layout table.form-table th{
+	width: 50%;
+}
+#wc_ast_delivered_settings_form .form-table tr,.ast-onboarding-step-trackship .form-table tr{
+	border-bottom: 1px solid #eee;
+}
+@media screen and (max-width: 767px) {
+	.ast-onboarding-wizard-container{
+		max-width: 100%;
+		width: auto;
+		margin: 0 10px;
+	}
+	.ast-onboarding-wizard-logo .plugin-logo {		
+		max-width: 250px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1269px) {
+	.ast-onboarding-wizard-container .provider{
+		width: 25%;
+	}	
+}
+@media screen and (max-width: 767px) {
+	.ast-onboarding-wizard-container .provider{
+		width: 33.3%;
+	}
+	.ast-onboarding-wizard-content{
+		padding: 20px 10px 20px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.provider,.ast-onboarding-wizard-container .provider{
+		width: 50%;
+	}
+}
