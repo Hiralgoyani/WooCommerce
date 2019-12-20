@@ -241,6 +241,21 @@ function iconic_add_engraving_text_to_cart_item( $cart_item_data, $product_id, $
  
 add_filter( 'woocommerce_add_cart_item_data', 'iconic_add_engraving_text_to_cart_item', 10, 3 );
 
+// Display Data in the Cart
+function iconic_display_engraving_text_cart( $item_data, $cart_item ) {
+	if ( empty( $cart_item['woocommerce_product_custom_fields_title'] ) ) {
+        return $item_data;
+    }
+ 
+    $item_data[] = array(
+        'key'     => __( 'Text '),
+        'value'   =>  $cart_item['woocommerce_product_custom_fields_title'],
+    );
+ 
+    return $item_data;
+} 
+add_filter( 'woocommerce_get_item_data', 'iconic_display_engraving_text_cart', 10, 2 );
+
 
 /***************************************************
 // 8. How to Add Custom Fields to WooCommerce Checkout Page
