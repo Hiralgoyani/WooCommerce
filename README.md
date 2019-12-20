@@ -1,6 +1,4 @@
-# WooCommerce
-WooCommerce customization
-Twentyseventeen Child
+# WooCommerce customization(Twentyseventeen Child)
 
 1. Enqueue css and js file(child theme and CDN link)
 
