@@ -13,6 +13,7 @@ function wpse_89494_enqueue_scripts() {
 	// enqueue js
 	wp_enqueue_script('jquery');
 	wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/custom-js.js', array(), '1.0.0', true );
+	wp_localize_script( 'custom-script', 'my_ajax_object', array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
 
 	// slick js
 	wp_enqueue_script( 'slick-script', get_stylesheet_directory_uri() . '/slick/slick.min.js', array(), '1.0.0', true );
@@ -218,43 +219,56 @@ function woocommerce_custom_fields_display()
     $custom_fields_woocommerce_title = $product->get_meta('woocommerce_custom_fields');
   if ($custom_fields_woocommerce_title) {
       printf(
-            '<div><label>%s</label><input type="text" id="woocommerce_product_custom_fields_title" name="woocommerce_product_custom_fields_title" value="" placeholder="%s" class="pro-c-input"></div><br/>',
+            '<div><label>%s</label><input type="text" id="pro_c_msg" name="pro_c_msg" value="" placeholder="%s" class="pro-cfield"></div><br/>',
             esc_html($custom_fields_woocommerce_title), esc_html($custom_fields_woocommerce_title),
       );
-  }
+  	}
+   	?>
+   		<input type="text" name="custom_data_1" class="custom_data" id="custom_data_1" placeholder="Enter custom_data_1"><br/>
+        <input type="text" name="custom_data_2" class="custom_data" id="custom_data_2" placeholder="Enter custom_data_2"><br/> 
+   	<?php
 } 
 add_action('woocommerce_before_add_to_cart_button', 'woocommerce_custom_fields_display');
 
 
 // Display custom field data with the Cart Item
-function iconic_add_engraving_text_to_cart_item( $cart_item_data, $product_id, $variation_id ) {
-    $engraving_text = filter_input( INPUT_POST, 'woocommerce_product_custom_fields_title' );
+function iconic_add_engraving_text_to_cart_item( $cart_item_meta, $product_id, $variation_id ) {
+    $engraving_text = filter_input( INPUT_POST, 'pro_c_msg' );
  
-    if ( empty( $engraving_text ) ) {
-        return $cart_item_data;
-    }
- 
-    $cart_item_data['woocommerce_product_custom_fields_title'] = $engraving_text;
- 
-    return $cart_item_data;
+ 	$custom_data  = array() ;
+    $custom_data['pro_c_msg'] = $engraving_text;
+ 	$cart_item_meta['custom_data'] = $custom_data['pro_c_msg'];
+
+    return $cart_item_meta;
 }
  
 add_filter( 'woocommerce_add_cart_item_data', 'iconic_add_engraving_text_to_cart_item', 10, 3 );
 
 // Display Data in the Cart
 function iconic_display_engraving_text_cart( $item_data, $cart_item ) {
-	if ( empty( $cart_item['woocommerce_product_custom_fields_title'] ) ) {
-        return $item_data;
-    }
- 
-    $item_data[] = array(
-        'key'     => __( 'Text '),
-        'value'   =>  $cart_item['woocommerce_product_custom_fields_title'],
-    );
+ 	if ( isset( $cart_item [ 'custom_data' ] ) ) {
+ 		$custom_data  = $cart_item [ 'custom_data' ];
+ 		 		
+ 		$item_data[] = array(
+	        'key'     => __( 'Text '),
+	        'value'   =>  $custom_data,
+	    );
+ 	}
  
     return $item_data;
 } 
 add_filter( 'woocommerce_get_item_data', 'iconic_display_engraving_text_cart', 10, 2 );
+
+
+// Add order item meta in table and it' will display automatically in order page for both side
+add_action( 'woocommerce_add_order_item_meta', 'add_order_item_meta' , 10, 2);
+function add_order_item_meta ( $item_id, $values ) {
+	if ( isset( $values [ 'custom_data' ] ) ) {
+		$custom_data  = $values [ 'custom_data' ];
+		wc_add_order_item_meta( $item_id, 'wooco_procfield_for_msg', $custom_data );
+	}
+}
+
 
 
 /***************************************************
@@ -365,6 +379,105 @@ function wdm_add_extra_customer_field( $fields ){
     $fields['phone'] = $phone;
     
     return $fields;
+}
+
+
+
+/***************************************************************
+9. How to Add Custom Data to WooCommerce Order
+****************************************************************/
+// step 1 : Add Data in a Custom Session, on 'Add to Cart' Button Click
+add_action('wp_ajax_wdm_add_user_custom_data_options', 'wdm_add_user_custom_data_options_callback');
+add_action('wp_ajax_nopriv_wdm_add_user_custom_data_options', 'wdm_add_user_custom_data_options_callback');
+function wdm_add_user_custom_data_options_callback()
+{
+    session_start();
+    $custom_data_ary = array();    
+    // Is value set in first custom field?
+    if(isset($_POST['custom_data_1'])){
+    	array_push($custom_data_ary, $_POST['custom_data_1']);
+	}
+	// Is value set in second custom field?
+	if(isset($_POST['custom_data_2'])){
+    	array_push($custom_data_ary, $_POST['custom_data_2']);
+	}
+    // assign custom fields value into custom session
+    $_SESSION['custom_data'] = $custom_data_ary;
+    die();
+}
+
+// step 2 : Fetch custom session value and merge with cart session
+add_filter('woocommerce_add_cart_item_data','wdm_add_item_data',1,2);
+if(!function_exists('wdm_add_item_data'))
+{
+    function wdm_add_item_data($cart_item_data,$product_id)
+    {
+        /*Here, We are adding item in WooCommerce session with, wdm_user_custom_data_value name*/
+        global $woocommerce;
+        session_start();
+        $new_value = array();
+        if (isset($_SESSION['custom_data'][0])) {
+            $option1 = $_SESSION['custom_data'][0];
+            $new_value['custom_data_1'] =  $option1;
+        }
+        if (isset($_SESSION['custom_data'][1])) {
+            $option2 = $_SESSION['custom_data'][1];
+            $new_value['custom_data_2'] =  $option2;
+        }
+        if( empty($option1) && empty($option2) )
+            return $cart_item_data;  // if custom field is empty, it's return cart value as it is
+        else
+        {
+            if(empty($cart_item_data))
+                return $new_value; // If cart session is empty then return only custom fields value
+            else
+                return array_merge($cart_item_data,$new_value); // If cart session have value then merge out custom session with Woo cart session
+        }              
+        unset($_SESSION['custom_data']); //Unset our custom session variable
+    }
+}
+
+// step 3 : Display custom fieldds value on cart and checkout page with table format
+add_filter('woocommerce_checkout_cart_item_quantity','wdm_add_user_custom_option_from_session_into_cart',1,3);
+add_filter('woocommerce_cart_item_price','wdm_add_user_custom_option_from_session_into_cart',1,3);
+if(!function_exists('wdm_add_user_custom_option_from_session_into_cart'))
+{
+    function wdm_add_user_custom_option_from_session_into_cart($product_name, $values, $cart_item_key )
+    {
+        if(count($values) > 0)
+        {
+            $return_string = $product_name . "</a><dl class='variation'>";
+            $return_string .= "<table class='wdm_options_table' id='" . $values['product_id'] . "'>";
+            $return_string .= "<tr><td> custom_data_1 : " . $values['custom_data_1'] . "</td></tr>";
+            $return_string .= "<tr><td> custom_data_2 : " . $values['custom_data_2'] . "</td></tr>";
+            $return_string .= "</table></dl>";
+            return $return_string;
+        }
+        else
+        {
+            return $product_name;
+        }
+    }
+}
+
+// step 4 : Add custom field value in order meta tabel, when order will place
+add_action('woocommerce_add_order_item_meta','wdm_add_values_to_order_item_meta',1,2);
+if(!function_exists('wdm_add_values_to_order_item_meta'))
+{
+    function wdm_add_values_to_order_item_meta($item_id, $values)
+    {
+        global $woocommerce,$wpdb;
+        $custom_data_1 = $values['custom_data_1'];
+        if(!empty($custom_data_1))
+        {
+            wc_add_order_item_meta($item_id,'custom_data_1',$custom_data_1);
+        }
+        $custom_data_2 = $values['custom_data_2'];
+        if(!empty($custom_data_2))
+        {
+            wc_add_order_item_meta($item_id,'custom_data_2',$custom_data_2);
+        }
+    }
 }
 
 ?>
