@@ -74,3 +74,5 @@ Screenshot
 - http://prntscr.com/qeoqp3
 - http://prntscr.com/qeor1p
 - http://prntscr.com/qeoro4
+
+10. Add to cart using ajax(without plugin)
