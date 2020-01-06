@@ -93,3 +93,6 @@ Screenshot
 16. Add custom footer widgets
 
 17. When user click on checkbox then additional charge will add on cart total
+- http://prntscr.com/qjxryh
+- http://prntscr.com/qjxsbt
+- http://prntscr.com/qjxsog
