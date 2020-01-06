@@ -17,6 +17,37 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
+				<section class="footer">
+				
+				    <div class="pure-g">
+				        
+				        <div class="ftr-1 pure-u-1 pure-u-sm-1 pure-u-md-1 pure-u-lg-1-5 pure-u-xl-1-5">
+				            
+				            <?php dynamic_sidebar( 'footer_area_one' ); ?>
+				            
+				        </div>
+
+				        <div class="ftr-2 pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 pure-u-xl-1-5">
+				            
+				            <?php dynamic_sidebar( 'footer_area_two' ); ?>
+				            
+				        </div>
+				        
+				        <div class="ftr-3 pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 pure-u-xl-1-5">
+				            
+				            <?php dynamic_sidebar( 'footer_area_three' ); ?>
+				            
+				        </div>
+				        
+				        <!-- <div class="pure-u-1 pure-u-sm-1-3 pure-u-md-1-3 pure-u-lg-1-5 pure-u-xl-1-5">
+				            
+				            <?php //dynamic_sidebar( 'footer_area_four' ); ?>
+				            
+				        </div> -->
+				        
+				    </div>
+				</section>
+				<?php get_template_part( 'template-parts/footer/site', 'info' ); ?>
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
 
@@ -37,8 +68,6 @@
 					</nav><!-- .social-navigation -->
 					<?php
 				endif;
-
-				get_template_part( 'template-parts/footer/site', 'info' );
 				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->

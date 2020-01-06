@@ -79,3 +79,17 @@ Screenshot
 
 
 10. Add to cart using ajax(without plugin)
+
+11. Add "add to cart" button on shop page
+
+12. Add 'Sales' badge on product
+
+13. customize default product search widgets
+
+14. display product thumbnails vertical
+
+15. display single product main image in full width
+
+16. Add custom footer widgets
+
+17. When user click on checkbox then additional charge will add on cart total

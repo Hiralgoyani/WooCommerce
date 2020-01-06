@@ -27,7 +27,7 @@
 
 <header id="header" class="c-header">
 	<div class="logo">
-		<span>LOGO</span>
+		<span><a href="<?php echo site_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/logo2.png" alt="Logo"></a></span>
 	</div>	
 	<div class="nav-menu">
 		<?php 	

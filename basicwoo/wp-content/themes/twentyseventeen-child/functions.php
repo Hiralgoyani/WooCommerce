@@ -86,18 +86,41 @@ function display_lat_pro_carosel(){
 		'orderby' =>'date',
 		'order' => 'DESC' );
 		$loop = new WP_Query( $args );
-		?><div class="slc-slider"><?php
-		while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
-				<div class="span3">
-						<a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-						<?php if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); else echo '<img src="'.woocommerce_placeholder_img_src().'" alt="My Image Placeholder" width="65px" height="115px" />'; ?>
-						<h3><?php the_title(); ?></h3>
-						<span class="price"><?php echo $product->get_price_html(); ?></span>
-						</a>
-						<?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>
-				</div>
-		<?php endwhile; ?>
-		</div>				
+		?>
+        <div class="recent-product">
+            <h3 class="recent-pro-head">Recent products</h3>
+            <div class="slc-slider"><?php
+    		while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
+    				<div class="span3">
+                            <?php 
+                                if ( $product->get_sale_price() ) {
+                                    echo '<img src="http://localhost/basicwoo/wp-content/uploads/2019/12/percent-badge.png" class="cslider-sale-badge" />';
+                                }
+                             ?>
+    						<a id="id-<?php the_id(); ?>" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+    						<?php if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, 'shop_catalog'); else echo '<img src="'.woocommerce_placeholder_img_src().'" alt="My Image Placeholder" width="65px" height="115px" />'; ?>
+    						<h3><?php the_title(); ?></h3>
+    						<span class="price"><?php echo $product->get_price_html(); ?> /-</span>
+    						</a>
+    						<?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>
+                            <div class="two-btn">
+                                <?php 
+                                    if($product->get_type() != "external"){
+                                        ?>
+                                            <div class="slider_add_to_cart">
+                                                <button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+                                            </div>
+                                        <?php
+                                    }
+                                ?>
+                                <div class="slider_wishlist">
+                                    <?php echo do_shortcode( '[yith_wcwl_add_to_wishlist]' ); ?>
+                                </div>
+                            </div>
+    				</div>
+    		<?php endwhile; ?>
+    		</div>
+        </div>				
 		<?php wp_reset_query(); ?>
     <?php
     return ob_get_clean();
@@ -445,7 +468,7 @@ if(!function_exists('wdm_add_user_custom_option_from_session_into_cart'))
 {
     function wdm_add_user_custom_option_from_session_into_cart($product_name, $values, $cart_item_key )
     {
-        if(count($values) > 0)
+        if(isset($values['custom_data_1']) || isset($values['custom_data_2']))
         {
             $return_string = $product_name . "</a><dl class='variation'>";
             $return_string .= "<table class='wdm_options_table' id='" . $values['product_id'] . "'>";
@@ -517,5 +540,165 @@ function woocommerce_ajax_add_to_cart() {
     wp_die();
 }
 
+
+// 11. Add "add to cart" button on shop page
+add_action('woocommerce_after_shop_loop_item','replace_add_to_cart');
+function replace_add_to_cart() {
+global $product;
+?>
+    <button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+<?php
+}
+
+// 12. Add 'Sales' badge on product
+add_filter('woocommerce_sale_flash', 'my_custom_sales_badge');
+function my_custom_sales_badge() {
+$img = '<img src="http://localhost/basicwoo/wp-content/uploads/2019/12/percent-badge.png" class="csale-badge" />';
+return $img;
+}
+
+
+// 13. customize default product search widgets
+add_filter( 'get_product_search_form' , 'woo_custom_product_searchform' );
+function woo_custom_product_searchform( $form ) {
+    $form = '<form role="search" method="get" id="searchform" action="' . esc_url( home_url( '/'  ) ) . '">
+    <div>
+      <label class="screen-reader-text" for="s">' . __( 'Search for:', 'woocommerce' ) . '</label>
+      <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . __( ' Search products', 'woocommerce' ) . '" />
+      <input type="submit" id="searchsubmit" value="'. esc_attr__( 'Search', 'woocommerce' ) .'" />
+      <input type="hidden" name="post_type" value="product" />
+    </div>
+    </form>';
+    return $form;
+}
+
+
+// 14. display product thumbnails vertical 
+add_filter ( 'woocommerce_product_thumbnails_columns', 'bbloomer_change_gallery_columns' );
+function bbloomer_change_gallery_columns() {
+     return 1; 
+}
+
+
+// 15. display single product main image in full width 
+function iconic_modify_theme_support() {
+    $theme_support = get_theme_support( 'woocommerce' );
+    $theme_support = is_array( $theme_support ) ? $theme_support[0] : array();
+
+    unset( $theme_support['single_image_width'], $theme_support['thumbnail_image_width'] );
+
+    remove_theme_support( 'woocommerce' );
+    add_theme_support( 'woocommerce', $theme_support );
+}
+add_action( 'after_setup_theme', 'iconic_modify_theme_support', 10 );
+
+
+//  display how many stock left
+add_action( 'woocommerce_after_shop_loop_item', 'bbloomer_show_stock_shop', 10 );
+  
+function bbloomer_show_stock_shop() {
+   global $product;
+   echo wc_get_stock_html( $product );
+}
+
+
+//  16. Add custom footer widgets
+function register_widget_areas() {
+
+  register_sidebar( array(
+    'name'          => 'Footer area one',
+    'id'            => 'footer_area_one',
+    'description'   => 'This widget area discription',
+    'before_widget' => '<section class="footer-area footer-area-one">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>',
+  ));
+
+  register_sidebar( array(
+    'name'          => 'Footer area two',
+    'id'            => 'footer_area_two',
+    'description'   => 'This widget area discription',
+    'before_widget' => '<section class="footer-area footer-area-two">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>',
+  ));
+
+  register_sidebar( array(
+    'name'          => 'Footer area three',
+    'id'            => 'footer_area_three',
+    'description'   => 'This widget area discription',
+    'before_widget' => '<section class="footer-area footer-area-three">',
+    'after_widget'  => '</section>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>',
+  ));
+
+  // register_sidebar( array(
+  //   'name'          => 'Footer area four',
+  //   'id'            => 'footer_area_four',
+  //   'description'   => 'This widget area discription',
+  //   'before_widget' => '<section class="footer-area footer-area-three">',
+  //   'after_widget'  => '</section>',
+  //   'before_title'  => '<h4>',
+  //   'after_title'   => '</h4>',
+  // ));
+
+}
+
+add_action( 'widgets_init', 'register_widget_areas' );
+
+
+//  17. When user click on checkbox then additional charge will add on cart total
+//  add checkbox after checkout form on checkout page
+add_action( 'woocommerce_after_checkout_billing_form', 'add_box_option_to_checkout' );
+function add_box_option_to_checkout( $checkout ) {
+    echo '<div id="message_fields">';
+    woocommerce_form_field( 'add_gift_box', array(
+        'type'          => 'checkbox',
+        'class'         => array('add_gift_box form-row-wide'),
+
+        'label'         => __('Want into gift box?'),
+        'placeholder'   => __(''),
+        ), $checkout->get_value( 'add_gift_box' ));
+        echo '</div>';
+}
+
+// refresh cart body
+add_action( 'wp_footer', 'woocommerce_add_gift_box' );
+function woocommerce_add_gift_box() {
+    if (is_checkout()) {
+    ?>
+    <script type="text/javascript">
+    jQuery( document ).ready(function( $ ) {
+        $('#add_gift_box').click(function(){
+            jQuery('body').trigger('update_checkout');
+        });
+    });
+    </script>
+    <?php
+    }
+}
+
+// add twenty five rupees charge in woocommerce cart total
+add_action( 'woocommerce_cart_calculate_fees', 'woo_add_cart_fee' );
+function woo_add_cart_fee( $cart ){
+    if ( ! $_POST || ( is_admin() && ! is_ajax() ) ) {
+        return;
+    }
+
+    if ( isset( $_POST['post_data'] ) ) {
+        parse_str( $_POST['post_data'], $post_data );
+    } else {
+        $post_data = $_POST; // fallback for final checkout (non-ajax)
+    }
+
+    if (isset($post_data['add_gift_box'])) {
+        $extracost = 25; // not sure why you used intval($_POST['state']) ?
+        WC()->cart->add_fee( 'Giftbox charges', $extracost );
+    }
+
+}
 
 ?>
